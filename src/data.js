@@ -24,6 +24,133 @@ export const sections = [
         image: "painting/DSC00064.jpg",
         description: "This is the description for this piece.",
       },
+      {
+        title: "Vanderpoel Color Study",
+        details: ["Oil on canvas paper", '18" x 24"'],
+        image: "painting/DSC00064.jpg",
+        description: "A study of Emily Noyes Vanderpoel’s Color Problems. Looking at how color interacts within everday objects and if spaciality can be expressed through a simplification of color on a 10 x 10 grid. ",
+      },
+    ],
+  },
+  {
+    title: "Sewing",
+    type: "item_view",
+    items: [
+      {
+        title: "Modular Backpack",
+        details: [
+          "Design",
+          "Material/ Parts Selection",
+          "Patterning",
+          "Sewing"
+        ],
+        image: "painting/DSC00008.jpg",
+        description: [
+          "Designed in accordance with what I believe to be the perfect everyday backpack. The process began with researching my favorite backpacks and then meticulously picking out materials and hardware. I wanted to make a bag that suited all of my needs, would last for years, and was modular. The modularity is key in making it last since it allows the pocket designs to be changed at any point.",
+          "",
+          "About 30 separate components patterned by hand.",
+          "",
+          "Padded laptop/ notebook compartment; main compartment with divider organizer; shock cord front panel (for quick access); removable front pouches (turns into side bag)."
+      ],
+      },
+      {
+        title: "Three Pant Work Jacket",
+        details: [
+          "Design",
+          "Material/ Parts Selection",
+          "Sewing"
+        ],
+        image: "painting/Screen_Shot_2021-01-03_at_7.57.08_PM.jpg",
+        description: "This jacket is made out of three different pairs of pants I had lying around the house. The color and wash on all three are different, yet somehow come together cohesively. The result is a 1/1 garment. About 90% of each pant was used, leaving very little waste. Pocket placement inspired by Katharine Hamnett AW1986 jacket.",
+      },
+      {
+        title: "Space-Ready Pillow Bag",
+        details: [
+          "Design",
+          "Material/ Parts Selection",
+          "Patterning",
+          "Sewing"
+        ],
+        image: "painting/DSC00064.jpg",
+        description: "A bag made for my best friend. I tried something new by using a translucent nylon with pillow stuffing in between layer. Sewing lines on the padding created a protective and comfortable bag.",
+      },
+      {
+        title: "Honda Bomber Hoodie",
+        details: [
+          "Design",
+          "Material/ Parts Selection",
+          "Sewing"
+        ],
+        image: "painting/DSC00064.jpg",
+        description: "This hoodie was an exploration in using found materials. I used my favorite hoodie from my childhood, a red Honda Racing hoodie, along with a bomber jacket to create a new hoodie that I would actually get wear out of.",
+      },
+      {
+        title: "Torso Bag",
+        details: [
+          "Design",
+          "Material/ Parts Selection",
+          "Patterning",
+          "Sewing"
+        ],
+        image: "painting/DSC00064.jpg",
+        description: [
+          "Inspired by early 90s Prada and Miu Miu bags, this side bag was an experiment in a new type of pattern cutting for me. The goal was to make a bag that conforms to my body and can be worn under a coat rather than on top of one.",
+          "Made out of an old pair of pants."
+        ]
+      },
+      {
+        title: "Paint Brush Holder",
+        details: [
+          "Design",
+          "Material/ Parts Selection",
+          "Patterning",
+          "Sewing"
+        ],
+        image: "painting/DSC00064.jpg",
+        description: "Made to hold twelve of my most used paint brushes. It was meant to not only protext my brushes but also give me a simple grab and go solution for when I need to take my brushes somewhere and I don’t want the bristles to get ruined in my backpack.",
+      },
+      {
+        title: "Arch/E Texture Hoodie",
+        details: [
+          "Design",
+          "Material/ Parts Selection",
+          "Sewing"
+        ],
+        image: "painting/DSC00064.jpg",
+        description: "An exploration in taking two hoodies I no longer wore anymore and combining them into something new that I would get use out of.",
+      },
+      {
+        title: "Utility Shorts",
+        details: [
+          "Design",
+          "Material/ Parts Selection",
+          "Patterning",
+          "Sewing"
+        ],
+        image: "painting/DSC00064.jpg",
+        description: "My first experiment with patterning a pair of shorts. My goal was to make a pair of lightweight, everyday shorts. I patterned the shorts in accordance to my own body measurements.",
+      },
+      {
+        title: "Hiker Pants",
+        details: [
+          "Design",
+          "Material/ Parts Selection",
+          "Patterning",
+          "Sewing"
+        ],
+        image: "painting/DSC00064.jpg",
+        description: "My first exploration in patterning and making pants from scratch. Patterning took many iterations and multiple muslin protoypes, but this was born out of it. Grey metallic polyester with the back side of green nylon for the pockets and details. ",
+      },
+      {
+        title: "Czech Winter Coat",
+        details: [
+          "Design",
+          "Material/ Parts Selection",
+          "Sewing"
+        ],
+        image: "painting/DSC00064.jpg",
+        description: "When I can, I try my best to not buy new fabric. For this project, I started out with an old Woolrich winter coat that I thrifted. I cropped it, modified the pockets a little bit, and then added a graphic from a vintage T-shirt. My Dad bought this shirt for my Mom when he visited the Czech Republic more than 20 years ago.",
+      },
     ],
   },
   {
@@ -84,7 +211,31 @@ export const sections = [
       "photography/b000020-2_copy.jpg",
       "photography/b000024_copy.JPG",
     ],
-  }, 
+  },
+  {
+    title: "Engineering",
+    type: "item_view",
+    items: [
+      {
+        title: "Custom Motorcycle",
+        details: ["Design", "Research and Development","Parts Selection","Building"],
+        image: "painting/Screen_Shot_2021-01-03_at_7.57.08_PM.jpg",
+        description: "Built from the ground up, this project was years in the making. I started the project when I was 16 to have something to do during the summer and because I loved motorcycles and engineering. I did everything from research and parts selection, to hand sanding every component. ",
+      },
+      {
+        title: "Robot 2017",
+        details: ["Team Captain", "Lead Mechanical Designer"],
+        image: "painting/Screen_Shot_2021-01-03_at_7.57.08_PM.jpg",
+        description: "Made during my first year as co-captain of the team, this robot implements a lot of new design philosophies for our team. A major goal of mine was to introduce new design and building standards so that the next generations of the team could have a standardized starting point for the following robots. ",
+      },
+      {
+        title: "Robot 2018",
+        details: ["Team Captain", "Lead Mechanical Designer"],
+        image: "painting/DSC00064.jpg",
+        description: "The team’s most ambitious robot design till this point, this robot pushed the possibilites of what our team was capable of. We implemented a cascading elevaor design, which allows the entire elevator to proportionally move up with the carriage holding the shooting/feeding mechanism. ",
+      },
+    ],
+  },
   {
     title: "Drawing",
     type: "gallery_view",
@@ -159,7 +310,7 @@ export const defaultItem = {
 export const aboutImage = "photos/about/IMG_0402.JPG";
 
 
-export const inspoImages =[ 
+export const inspoImages =[
 "inspo/384247.jpg",
 "inspo/ignant-art-james-turrell-skyspace-zumtobel-003.jpg",
 "inspo/kanye-west-gq-cover-may-2020-08-2.jpg",

@@ -30,7 +30,7 @@ class Dashboard extends Component {
             <div className={this.state.displayAbout ? "nav-box-active" : "nav-box"} onClick={this.setAbout}>
               <p>About</p>
             </div>
-            <div className="nav-right" onClick={this.setInspo}>
+            <div className={this.state.displayInspo ? "nav-box-active" : "nav-box"} onClick={this.setInspo}>
               <p>Inspo</p>
             </div>
           </div>
