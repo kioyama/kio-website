@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import PanelNavigationItem from "./PanelNavigationItem";
 import { sections } from "./data";
+import { PanelStatus } from "./constants";
+
 class PanelNavigation extends Component {
   render() {
     return this.renderSections();
@@ -25,8 +27,8 @@ class PanelNavigation extends Component {
             </div>
             <div className="nav-row">
               <div
-                className={(this.props.displayPhotoGallery && section.title === "Photography")  || this.props.displayDrawingGallery && section.title === "Drawing" ? "nav-item-active" : "nav-item"}
-                onClick={() => section.title === "Photography" ? this.props.setPhotoGallery(section.images) : this.props.setDrawingGallery(section.images)}
+                className={(this.props.panelState === PanelStatus.GALLERY && this.arrayEquals(this.props.gallery, section.images))  ? "nav-item-active" : "nav-item"}
+                onClick={() => this.props.setGallery(section.images) }
               >
                 <p>View all</p>
               </div>
@@ -46,13 +48,13 @@ class PanelNavigation extends Component {
           <PanelNavigationItem
             item={items[i]}
             active={items[i] === this.props.activeItem}
-            onClick={this.props.setActiveItem}
+            onClick={this.props.setItem}
           />
           {i + 1 < items.length ? (
             <PanelNavigationItem
               item={items[i + 1]}
               active={items[i + 1] === this.props.activeItem}
-              onClick={this.props.setActiveItem}
+              onClick={this.props.setItem}
             />
           ) : (
             <div className="blank-nav-item" />
@@ -62,6 +64,13 @@ class PanelNavigation extends Component {
     }
     return rows;
   };
+
+  arrayEquals = (a, b) => {
+    return Array.isArray(a) &&
+      Array.isArray(b) &&
+      a.length === b.length &&
+      a.every((val, index) => val === b[index]);
+  }
 }
 
 export default PanelNavigation;

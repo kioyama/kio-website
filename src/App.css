@@ -21,15 +21,18 @@ a {
   width: 100vw;
 }
 
+img:not(.overlay-container img) {
+  cursor: pointer;
+}
+
 .app {
   position: absolute;
 }
 
-
 .blush-blush {
   position: absolute;
   width: 100%;
-  height:100%;
+  height: 100%;
   pointer-events: none;
   display: flex;
   justify-content: flex-end;
@@ -37,9 +40,8 @@ a {
 
 .blush-blush img {
   width: 284px;
-  height:284px;
+  height: 284px;
 }
-
 
 .panel {
   max-width: 50%;
@@ -47,6 +49,9 @@ a {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: auto;
+  scrollbar-color: #e0e0e0 #fafafa;
+  scrollbar-width: thin;
 }
 
 .header {
@@ -68,10 +73,12 @@ a {
   border-bottom: 1px solid black;
 }
 
-.header-nav:hover, .header-nav-active:hover {
+.header-nav:hover,
+.header-nav-active:hover {
   cursor: pointer;
 }
-.header-nav div, .header-nav-active div {
+.header-nav div,
+.header-nav-active div {
   padding: 0.5rem 0;
   width: 50%;
   text-align: center;
@@ -86,8 +93,8 @@ a {
   background-color: rgba(234, 18, 18, 0.85);
 }
 
-
-.header-nav div p, .header-nav-active div p {
+.header-nav div p,
+.header-nav-active div p {
   color: #84a1c2;
   font-size: 24px;
 }
@@ -135,7 +142,8 @@ a {
   font-size: 16px;
 }
 
-.nav-item:hover, .nav-item-active:hover{
+.nav-item:hover,
+.nav-item-active:hover {
   background-color: rgba(234, 18, 18, 0.85);
   cursor: pointer;
 }
@@ -176,9 +184,31 @@ a {
 .display-image-wrap {
   display: flex;
   justify-content: center;
+  position: relative;
   padding: 2rem 0;
   box-sizing: border-box;
 }
+
+.display-image-wrap .arrow-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.display-image-wrap .icon {
+  font-size: 72px;
+}
+
+.display-image-wrap .icon-disabled {
+  color: black;
+  opacity: 0.1;
+  font-size: 72px;
+}
+
+.display-image-wrap .icon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
 .display-image {
   width: 80%;
 }
@@ -193,10 +223,12 @@ a {
 }
 
 .gallery {
+  padding: 1rem;
   overflow: auto;
 }
 .gallery-row {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -253,6 +285,42 @@ a {
   color: #757575;
   font-size: 20px;
   font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
+
+.overlay-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.overlay-container img {
+  height: 85%;
+  object-fit: contain;
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  background-color: black;
+  opacity: 0.2;
+  justify-content: space-between;
+}
+
+.carousel .control {
+  background-color: black;
+  opacity: 0.2;
+  width: 24;
+  height: 24;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

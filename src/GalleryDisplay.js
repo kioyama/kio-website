@@ -21,7 +21,7 @@ class GalleryDisplay extends Component {
     let cols = colImageLists.map((list) => (
       <div className="gallery-col">
         {list.map((img) => (
-          <img src={"photos/" + img} className="gallery-img " alt={img}></img>
+          <img src={"photos/" + img} className="gallery-img " alt={img} onClick={ () => this.props.setOverlayImage("photos/" + img)}></img>
         ))}
       </div>
     ));

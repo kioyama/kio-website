@@ -1,101 +1,90 @@
 import React, { Component } from "react";
-import ItemDisplay from "./ItemDisplay";
 import PanelNavigation from "./PanelNavigation";
-import { defaultItem, inspoImages } from "./data";
-import GalleryDisplay from "./GalleryDisplay";
-import About from "./About";
+import Display from "./Display";
+
+import {  inspoImages,  } from "./data";
+import { PanelStatus } from "./constants";
 
 class Dashboard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeItem: defaultItem,
+      activeItem: null,
       activeGallery: null,
-      displayPhotoGallery: false,
-      displayDrawingGallery: false,
-      displayAbout: true,
-      displayInspo: false,
+      panelState: PanelStatus.ABOUT,
+      overlayImage: null
     };
   }
 
   render() {
-    console.log(inspoImages);
     return (
       <div className="wrapper">
+        {this.state.overlayImage != null ? <div className={"overlay-container"} onClick={() => this.setState({overlayImage: null})}>
+        <img className="display-image" src={this.state.overlayImage} alt={this.props.title}/>
+        </div> : <div />}
         <div className="panel">
           <div className="header">
             <h1 className="heading">Kio Murayama</h1>
           </div>
           <div className="header-nav">
-            <div className={this.state.displayAbout ? "nav-box-active" : "nav-box"} onClick={this.setAbout}>
+            <div className={this.state.panelState === PanelStatus.ABOUT ? "nav-box-active" : "nav-box"} onClick={this.setAbout}>
               <p>About</p>
             </div>
-            <div className={this.state.displayInspo ? "nav-box-active" : "nav-box"} onClick={this.setInspo}>
+            <div className={this.state.activeGallery === inspoImages ? "nav-box-active" : "nav-box"} onClick={this.setInspo}>
               <p>Inspo</p>
             </div>
           </div>
           <PanelNavigation
-            setPhotoGallery={this.setPhotoGallery}            
-            setDrawingGallery={this.setDrawingGallery}
-            setActiveItem={this.setItem}
+            setGallery={this.setGallery}            
+            setItem={this.setItem}
+            gallery={this.state.activeGallery}
+            panelState = {this.state.panelState}
             activeItem={this.state.activeItem}
-            displayPhotoGallery={this.state.displayPhotoGallery}
-            displayDrawingGallery={this.state.displayDrawingGallery}
         />
           <div className="nav-fill-remaining"></div>
         </div>
-        {this.state.displayPhotoGallery || this.state.displayDrawingGallery || this.state.displayInspo ? (
-          <GalleryDisplay images={this.state.activeGallery} />
-        ) : this.state.displayAbout ? (
-          <About />
-        ) : (
-          <ItemDisplay
-            item={this.state.activeItem}
-            activeItem={this.state.activeItem}
-          />
-        )}
+        <Display panelState={this.state.panelState} activeItem={this.state.activeItem} activeGallery={this.state.activeGallery} setOverlayImage={this.setOverlayImage}/>
       </div>
     );
   }
 
   setItem = (item) => {
     this.setState({
-      displayAbout: false,
-      displayPhotoGallery: false,
-      displayDrawingGallery: false,
       activeItem: item,
-      displayInspo: false,
       activeGallery: null,
+      panelState: PanelStatus.ITEM,
     });
   };
 
-  setPhotoGallery = (images) => {
+  setGallery = (gallery) => {
     this.setState({
-      activeGallery: images,
-      displayPhotoGallery: true,
-      displayDrawingGallery: false,
-      displayAbout: false,
       activeItem: null,
+      activeGallery: gallery,
+      panelState: PanelStatus.GALLERY,
     });
-  };
-
-  setDrawingGallery = (images) => {
-    this.setState({
-      activeGallery: images,
-      displayPhotoGallery: false,
-      displayDrawingGallery: true,
-      displayAbout: false,
-      activeItem: null,
-    });
-  };
+  }
 
   setAbout = () => {
-    this.setState({ displayInspo: false, displayPhotoGallery: false, displayDrawingGallery:false, displayAbout: true, activeItem: null, activeGallery:null });
-  };
+    this.setState({
+      activeItem: null,
+      activeGallery: null,
+      panelState: PanelStatus.ABOUT,
+    });
+  }
 
   setInspo = () => {
-    this.setState({ displayInspo: true, displayAbout: false,  displayPhotoGallery: false, displayDrawingGallery:false, activeItem: null, activeGallery: inspoImages });
-  };
+    this.setState({
+      activeItem: null,
+      activeGallery: inspoImages,
+      panelState: PanelStatus.GALLERY,
+    });
+  }
+
+  setOverlayImage = (path) => {
+    this.setState({overlayImage: path});
+  }
+
+
 }
 
 export default Dashboard;
