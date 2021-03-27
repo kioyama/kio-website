@@ -23,6 +23,19 @@ class ItemDisplay extends Component {
     }
   };
 
+  renderProcessGrid = () => {
+    if (this.props.item.processImages.length > 0) {
+      return this.props.item.processImages.map((img) => <div>
+        <img  onClick={() =>
+              this.props.setOverlayImage(
+                "photos/" + img
+              )} src={"photos/" +  img} />
+        </div>)
+    } else {
+      return <div></div>
+    }
+  }
+
   render() {
     return (
       <div className="display-wrap">
@@ -63,6 +76,10 @@ class ItemDisplay extends Component {
         <div className="display-description">
           <h3 className="display-description-title">Description:</h3>
           <p className="display-detail">{this.props.item.description}</p>
+        </div>
+        {this.props.item.processImages.length > 0 ? <h3 className="display-description-title">Process:</h3> : <div/>}
+        <div className="process-grid">
+          {this.renderProcessGrid()}
         </div>
       </div>
     );
