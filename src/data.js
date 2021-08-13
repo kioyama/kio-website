@@ -9,30 +9,30 @@ export const sections = [
           "Oil on canvas, oil and paint marker on plywood, 2x4 wood",
           '28" x 20" x 18"',
         ],
-        images: ["painting/As of Nineteen/asof19_main1.jpg"],
+        images: ["painting/As of Nineteen/asof19_main1.jpg","painting/As of Nineteen/asof19_main2.jpg","painting/As of Nineteen/asof19_main3.jpg","painting/As of Nineteen/asof19_main4.jpg",],
         processImages: ["painting/As of Nineteen/asof19_process1.jpg", "painting/As of Nineteen/asof19_process2.jpg", "painting/As of Nineteen/asof19_process3.jpg", "painting/As of Nineteen/asof19_process4.jpg", "painting/As of Nineteen/asof19_process5.jpg", "painting/As of Nineteen/asof19_process6.jpg", "painting/As of Nineteen/asof19_process7.jpg", "painting/As of Nineteen/asof19_process8.jpg", "painting/As of Nineteen/asof19_process9.jpg"],
-        description: "This is the description for this piece.",
+        description: "Dedicated to who I am before turning 20. The work is a combination of the two things I love most: art and engineering. The support structure as well as the custom shaped main panel were all constructed by hand using scrap materials. The shape of the main panel is derived from an aerial view of Le Corbusier's Carpenter Center. Being his only work in North America and located in Cambridge, Massachusetts, this building has a special place in my heart as it is my favorite building to frequent. In the center sits a self portrait. Behind this are waves of lines signifying the beautiful yet tumultuous nature of human relations. Based on instructions from Sol Lewitt modified to my own liking, I drew a line, then had a friend draw a line. If one of us lifted the marker or ran into another line a red cross was placed.I have a strange obsession with cranes. The two side panels are abstracted views of my custom motorcycle. Motorcycles are the reason I fell in love with engineering in the first place and showed me what beautiful engineering and design can produce. The colors are muted representations of the two cities most important to me at the time: Los Angeles and Boston.",
       },
       {
         title: "Calder Study",
         details: ["Oil on canvas", '18" x 24"'],
         images: ["painting/Calder study/CalderStudy_website copy.jpg"],
         processImages: [],
-        description: "This is the description for this piece.",
+        description: "Alexander Calder is an artist I have admired for quite some time now. This piece was meant to be an homage to Calder as well a a study of his forms. A key goal was the show the kinetic nature of this sculpture on a stagnant two-dimentional surface. ",
       },
       {
         title: "Self Portrait",
         details: ["Oil on canvas", '12" x 9"'],
         images: ["painting/Self Portrait/IMG_2691 copy.jpg"],
         processImages: [],
-        description: "This is the description for this piece.",
+        description: "The real and the abstract. Light and contrast. Insecurity and confidence. This painting is meant to embody the most personal parts of who I am. My brother sits in a glass ball looking back at me, yet also looking for me. I view the world through the lens of my older brother. He crawls so that I may run.",
       },
       {
         title: "Vanderpoel Color Study",
         details: ["Oil on canvas paper", '18" x 24"'],
         images: ["painting/Color study/colorstudy.JPG"],
         processImages: [],
-        description: "A study of Emily Noyes Vanderpoel’s Color Problems. Looking at how color interacts within everday objects and if spaciality can be expressed through a simplification of color on a 10 x 10 grid. ",
+        description: "A study of Emily Noyes Vanderpoel’s 'Color Problems'. Looking at how color interacts within everday objects, and if spaciality can be expressed through a simplification of color on a 10 x 10 grid. ",
       },
     ],
   },
@@ -48,8 +48,8 @@ export const sections = [
           "Patterning",
           "Sewing"
         ],
-        images: ["sewing/Modular Backpack/MAIN PHOTOS/backpack_1.jpg"],
-        processImages: [],
+        images: ["sewing/Modular Backpack/MAIN PHOTOS/backpack_1.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_2.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_3.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_4.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_5.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_6.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_7.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_8.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_9.jpg",],
+        processImages: ["sewing/Modular Backpack/backpack_sketch2.jpg","sewing/Modular Backpack/backpack_process_1.jpg","sewing/Modular Backpack/backpack_process_2.jpg","sewing/Modular Backpack/backpack_process_3.jpg","sewing/Modular Backpack/backpack_process_4.jpg","sewing/Modular Backpack/backpack_process_5.jpg","sewing/Modular Backpack/backpack_process_6.jpg","sewing/Modular Backpack/backpack_process_7.jpg",],
         description: [
           "Designed in accordance with what I believe to be the perfect everyday backpack. The process began with researching my favorite backpacks and then meticulously picking out materials and hardware. I wanted to make a bag that suited all of my needs, would last for years, and was modular. The modularity is key in making it last since it allows the pocket designs to be changed at any point.",
           "",
@@ -65,8 +65,8 @@ export const sections = [
           "Material/ Parts Selection",
           "Sewing"
         ],
-        processImages: [],
-        images: ["sewing/Three Pant Work Jacket/three_pant_WJ_main.jpg"],
+        processImages: ["sewing/Three Pant Work Jacket/three_pant_WJ_before.jpg","sewing/Three Pant Work Jacket/three_pant_WJ_process.jpg",],
+        images: ["sewing/Three Pant Work Jacket/three_pant_WJ_main.jpg","sewing/Three Pant Work Jacket/three_pant_WJ_back.jpg","sewing/Three Pant Work Jacket/three_pant_WJ_closeup.jpg","sewing/Three Pant Work Jacket/three_pant_WJ_onrack.jpg",],
         description: "This jacket is made out of three different pairs of pants I had lying around the house. The color and wash on all three are different, yet somehow come together cohesively. The result is a 1/1 garment. About 90% of each pant was used, leaving very little waste. Pocket placement inspired by Katharine Hamnett AW1986 jacket.",
       },
       {
@@ -78,7 +78,7 @@ export const sections = [
           "Sewing"
         ],
         processImages: [],
-        images: ["sewing/Space-Ready Pillow Side bag/Pillow_bag_1.jpg"],
+        images: ["sewing/Space-Ready Pillow Side bag/Pillow_bag_1.jpg","sewing/Space-Ready Pillow Side bag/Pillow_bag_2.jpg","sewing/Space-Ready Pillow Side bag/Pillow_bag_3.jpg","sewing/Space-Ready Pillow Side bag/pillow_bag_inside.jpg","sewing/Space-Ready Pillow Side bag/pillow_bag_top.jpg",],
         description: "A bag made for my best friend. I tried something new by using a translucent nylon with pillow stuffing in between layer. Sewing lines on the padding created a protective and comfortable bag.",
       },
       {
@@ -89,7 +89,7 @@ export const sections = [
           "Sewing"
         ],
         processImages: [],
-        images: ["sewing/Honda Bomber Hoodie/honda_bomber_hoodie_main.jpg"],
+        images: ["sewing/Honda Bomber Hoodie/honda_bomber_hoodie_main.jpg","sewing/Honda Bomber Hoodie/honda_bomber_hoodie_back.jpg","sewing/Honda Bomber Hoodie/honda_bomber_hoodie_open.jpg",],
         description: "This hoodie was an exploration in using found materials. I used my favorite hoodie from my childhood, a red Honda Racing hoodie, along with a bomber jacket to create a new hoodie that I would actually get wear out of.",
       },
       {
@@ -101,7 +101,7 @@ export const sections = [
           "Sewing"
         ],
         processImages: [],
-        images: ["sewing/Torso bag/torso_bag_main.jpg"],
+        images: ["sewing/Torso bag/torso_bag_main.jpg","sewing/Torso bag/torso_bag_folded.jpg","sewing/Torso bag/torso_bag_closeup.jpg","sewing/Torso bag/torso_bag_inside.jpg","sewing/Torso bag/torso_bag_onbody.jpg",],
         description: [
           "Inspired by early 90s Prada and Miu Miu bags, this side bag was an experiment in a new type of pattern cutting for me. The goal was to make a bag that conforms to my body and can be worn under a coat rather than on top of one.",
           "Made out of an old pair of pants."
@@ -116,7 +116,7 @@ export const sections = [
           "Sewing"
         ],
         processImages: [],
-        images: ["sewing/Paint brush holder/paint_brush_holder_main.jpg"],
+        images: ["sewing/Paint brush holder/paint_brush_holder_main.jpg","sewing/Paint brush holder/paint_brush_holder_closeup.jpg","sewing/Paint brush holder/paint_brush_holder_rolled.jpg",],
         description: "Made to hold twelve of my most used paint brushes. It was meant to not only protext my brushes but also give me a simple grab and go solution for when I need to take my brushes somewhere and I don’t want the bristles to get ruined in my backpack.",
       },
       {
@@ -127,7 +127,7 @@ export const sections = [
           "Sewing"
         ],
         processImages: [],
-        images: ["sewing/Arch_E Texture Hoodie/Arch-E_front.jpg"],
+        images: ["sewing/Arch_E Texture Hoodie/Arch-E_front.jpg","sewing/Arch_E Texture Hoodie/Arch-E_back.jpg","sewing/Arch_E Texture Hoodie/Arch-E_closeup.jpg",],
         description: "An exploration in taking two hoodies I no longer wore anymore and combining them into something new that I would get use out of.",
       },
       {
@@ -151,7 +151,7 @@ export const sections = [
           "Sewing"
         ],
         processImages: [],
-        images: ["sewing/Hiker Pants/hiker_pants_main.jpg"],
+        images: ["sewing/Hiker Pants/hiker_pants_main.jpg","sewing/Hiker Pants/hiker_pants_back.jpg","sewing/Hiker Pants/hiker_pants_pocket.jpg","sewing/Hiker Pants/hiker_pants_zipper.jpg","sewing/Hiker Pants/hiker_pants_onbody.jpg",],
         description: "My first exploration in patterning and making pants from scratch. Patterning took many iterations and multiple muslin protoypes, but this was born out of it. Grey metallic polyester with the back side of green nylon for the pockets and details. ",
       },
       {
@@ -162,7 +162,7 @@ export const sections = [
           "Sewing"
         ],
         processImages: [],
-        images: ["sewing/Czech Winter Coat/czech_winter_coat_main.jpg"],
+        images: ["sewing/Czech Winter Coat/czech_winter_coat_main.jpg","sewing/Czech Winter Coat/czech_winter_coat_back.jpg",],
         description: "When I can, I try my best to not buy new fabric. For this project, I started out with an old Woolrich winter coat that I thrifted. I cropped it, modified the pockets a little bit, and then added a graphic from a vintage T-shirt. My Dad bought this shirt for my Mom when he visited the Czech Republic more than 20 years ago.",
       },
     ],
@@ -226,14 +226,14 @@ export const sections = [
       {
         title: "Custom Motorcycle",
         details: ["Design", "Research and Development","Parts Selection","Building"],
-        images: ["engineering/Motorcycle/motorcycle_MAIN.jpg"],
-        processImages: [],
+        images: ["engineering/Motorcycle/motorcycle_MAIN.jpg",],
+        processImages: ["engineering/Motorcycle/motorcycle_process_1.jpg","engineering/Motorcycle/motorcycle_process_2.jpg","engineering/Motorcycle/motorcycle_process_3.jpg","engineering/Motorcycle/motorcycle_process_4.jpg",],
         description: "Built from the ground up, this project was years in the making. I started the project when I was 16 to have something to do during the summer and because I loved motorcycles and engineering. I did everything from research and parts selection, to hand sanding every component. ",
       },
       {
         title: "Robot 2017",
         details: ["Team Captain", "Lead Mechanical Designer"],
-        images: ["engineering/Robot 2017/robot2017_main.jpg"],
+        images: ["engineering/Robot 2017/robot2017_main.jpg","engineering/Robot 2017/robot2017_onfield.jpg","engineering/Robot 2017/robot2017_side.jpg","engineering/Robot 2017/robot2017_shooting.jpg","engineering/Robot 2017/robot2017_team.jpg","engineering/Robot 2017/robot2017_bragsheet.jpg",],
         processImages: [],
         description: "Made during my first year as co-captain of the team, this robot implements a lot of new design philosophies for our team. A major goal of mine was to introduce new design and building standards so that the next generations of the team could have a standardized starting point for the following robots. ",
       },
