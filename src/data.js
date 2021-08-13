@@ -23,7 +23,7 @@ export const sections = [
       {
         title: "Self Portrait",
         details: ["Oil on canvas", '12" x 9"'],
-        images: ["painting/Self Portrait/IMG_2691 copy.jpg"],
+        images: ["painting/Self Portrait/IMG_2691 copy.jpg","painting/Self Portrait/IMG_2692.jpg"],
         processImages: [],
         description: "The real and the abstract. Light and contrast. Insecurity and confidence. This painting is meant to embody the most personal parts of who I am. My brother sits in a glass ball looking back at me, yet also looking for me. I view the world through the lens of my older brother. He crawls so that I may run.",
       },
@@ -32,7 +32,9 @@ export const sections = [
         details: ["Oil on canvas paper", '18" x 24"'],
         images: ["painting/Color study/colorstudy.JPG"],
         processImages: [],
+
         description: "A study of Emily Noyes Vanderpoel’s 'Color Problems'. Looking at how color interacts within everday objects, and if spaciality can be expressed through a simplification of color on a 10 x 10 grid. ",
+
       },
     ],
   },
@@ -46,7 +48,7 @@ export const sections = [
           "Design",
           "Material/ Parts Selection",
           "Patterning",
-          "Sewing"
+          "Sewing",
         ],
         images: ["sewing/Modular Backpack/MAIN PHOTOS/backpack_1.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_2.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_3.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_4.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_5.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_6.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_7.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_8.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_9.jpg",],
         processImages: ["sewing/Modular Backpack/backpack_sketch2.jpg","sewing/Modular Backpack/backpack_process_1.jpg","sewing/Modular Backpack/backpack_process_2.jpg","sewing/Modular Backpack/backpack_process_3.jpg","sewing/Modular Backpack/backpack_process_4.jpg","sewing/Modular Backpack/backpack_process_5.jpg","sewing/Modular Backpack/backpack_process_6.jpg","sewing/Modular Backpack/backpack_process_7.jpg",],
@@ -55,19 +57,18 @@ export const sections = [
           "",
           "About 30 separate components patterned by hand.",
           "",
-          "Padded laptop/ notebook compartment; main compartment with divider organizer; shock cord front panel (for quick access); removable front pouches (turns into side bag)."
-      ],
+          "Padded laptop/ notebook compartment; main compartment with divider organizer; shock cord front panel (for quick access); removable front pouches (turns into side bag).",
+        ],
       },
       {
         title: "Three Pant Work Jacket",
-        details: [
-          "Design",
-          "Material/ Parts Selection",
-          "Sewing"
-        ],
-        processImages: ["sewing/Three Pant Work Jacket/three_pant_WJ_before.jpg","sewing/Three Pant Work Jacket/three_pant_WJ_process.jpg",],
-        images: ["sewing/Three Pant Work Jacket/three_pant_WJ_main.jpg","sewing/Three Pant Work Jacket/three_pant_WJ_back.jpg","sewing/Three Pant Work Jacket/three_pant_WJ_closeup.jpg","sewing/Three Pant Work Jacket/three_pant_WJ_onrack.jpg",],
-        description: "This jacket is made out of three different pairs of pants I had lying around the house. The color and wash on all three are different, yet somehow come together cohesively. The result is a 1/1 garment. About 90% of each pant was used, leaving very little waste. Pocket placement inspired by Katharine Hamnett AW1986 jacket.",
+
+        details: ["Design", "Material/ Parts Selection", "Sewing"],
+        processImages: [],
+        images: ["sewing/Three Pant Work Jacket/three_pant_WJ_main.jpg"],
+        description:
+          "This jacket is made out of three different pairs of pants I had lying around the house. The color and wash on all three are different, yet somehow come together cohesively. The result is a 1/1 garment. About 90% of each pant was used, leaving very little waste. Pocket placement inspired by Katharine Hamnett AW1986 jacket.",
+
       },
       {
         title: "Space-Ready Pillow Bag",
@@ -75,37 +76,29 @@ export const sections = [
           "Design",
           "Material/ Parts Selection",
           "Patterning",
-          "Sewing"
+          "Sewing",
         ],
         processImages: [],
+
         images: ["sewing/Space-Ready Pillow Side bag/Pillow_bag_1.jpg","sewing/Space-Ready Pillow Side bag/Pillow_bag_2.jpg","sewing/Space-Ready Pillow Side bag/Pillow_bag_3.jpg","sewing/Space-Ready Pillow Side bag/pillow_bag_inside.jpg","sewing/Space-Ready Pillow Side bag/pillow_bag_top.jpg",],
         description: "A bag made for my best friend. I tried something new by using a translucent nylon with pillow stuffing in between layer. Sewing lines on the padding created a protective and comfortable bag.",
+
       },
-      {
-        title: "Honda Bomber Hoodie",
-        details: [
-          "Design",
-          "Material/ Parts Selection",
-          "Sewing"
-        ],
-        processImages: [],
-        images: ["sewing/Honda Bomber Hoodie/honda_bomber_hoodie_main.jpg","sewing/Honda Bomber Hoodie/honda_bomber_hoodie_back.jpg","sewing/Honda Bomber Hoodie/honda_bomber_hoodie_open.jpg",],
-        description: "This hoodie was an exploration in using found materials. I used my favorite hoodie from my childhood, a red Honda Racing hoodie, along with a bomber jacket to create a new hoodie that I would actually get wear out of.",
-      },
+
       {
         title: "Torso Bag",
         details: [
           "Design",
           "Material/ Parts Selection",
           "Patterning",
-          "Sewing"
+          "Sewing",
         ],
         processImages: [],
         images: ["sewing/Torso bag/torso_bag_main.jpg","sewing/Torso bag/torso_bag_folded.jpg","sewing/Torso bag/torso_bag_closeup.jpg","sewing/Torso bag/torso_bag_inside.jpg","sewing/Torso bag/torso_bag_onbody.jpg",],
         description: [
           "Inspired by early 90s Prada and Miu Miu bags, this side bag was an experiment in a new type of pattern cutting for me. The goal was to make a bag that conforms to my body and can be worn under a coat rather than on top of one.",
-          "Made out of an old pair of pants."
-        ]
+          "Made out of an old pair of pants.",
+        ],
       },
       {
         title: "Paint Brush Holder",
@@ -113,22 +106,22 @@ export const sections = [
           "Design",
           "Material/ Parts Selection",
           "Patterning",
-          "Sewing"
+          "Sewing",
         ],
         processImages: [],
+
         images: ["sewing/Paint brush holder/paint_brush_holder_main.jpg","sewing/Paint brush holder/paint_brush_holder_closeup.jpg","sewing/Paint brush holder/paint_brush_holder_rolled.jpg",],
         description: "Made to hold twelve of my most used paint brushes. It was meant to not only protext my brushes but also give me a simple grab and go solution for when I need to take my brushes somewhere and I don’t want the bristles to get ruined in my backpack.",
+
       },
       {
         title: "Arch/E Texture Hoodie",
-        details: [
-          "Design",
-          "Material/ Parts Selection",
-          "Sewing"
-        ],
+        details: ["Design", "Material/ Parts Selection", "Sewing"],
         processImages: [],
+
         images: ["sewing/Arch_E Texture Hoodie/Arch-E_front.jpg","sewing/Arch_E Texture Hoodie/Arch-E_back.jpg","sewing/Arch_E Texture Hoodie/Arch-E_closeup.jpg",],
         description: "An exploration in taking two hoodies I no longer wore anymore and combining them into something new that I would get use out of.",
+
       },
       {
         title: "Utility Shorts",
@@ -136,11 +129,12 @@ export const sections = [
           "Design",
           "Material/ Parts Selection",
           "Patterning",
-          "Sewing"
+          "Sewing",
         ],
         processImages: [],
         images: ["sewing/Utility Shorts/utility_shorts_front-min.jpg"],
-        description: "My first experiment with patterning a pair of shorts. My goal was to make a pair of lightweight, everyday shorts. I patterned the shorts in accordance to my own body measurements.",
+        description:
+          "My first experiment with patterning a pair of shorts. My goal was to make a pair of lightweight, everyday shorts. I patterned the shorts in accordance to my own body measurements.",
       },
       {
         title: "Hiker Pants",
@@ -148,23 +142,15 @@ export const sections = [
           "Design",
           "Material/ Parts Selection",
           "Patterning",
-          "Sewing"
+          "Sewing",
         ],
         processImages: [],
+
         images: ["sewing/Hiker Pants/hiker_pants_main.jpg","sewing/Hiker Pants/hiker_pants_back.jpg","sewing/Hiker Pants/hiker_pants_pocket.jpg","sewing/Hiker Pants/hiker_pants_zipper.jpg","sewing/Hiker Pants/hiker_pants_onbody.jpg",],
         description: "My first exploration in patterning and making pants from scratch. Patterning took many iterations and multiple muslin protoypes, but this was born out of it. Grey metallic polyester with the back side of green nylon for the pockets and details. ",
+
       },
-      {
-        title: "Czech Winter Coat",
-        details: [
-          "Design",
-          "Material/ Parts Selection",
-          "Sewing"
-        ],
-        processImages: [],
-        images: ["sewing/Czech Winter Coat/czech_winter_coat_main.jpg","sewing/Czech Winter Coat/czech_winter_coat_back.jpg",],
-        description: "When I can, I try my best to not buy new fabric. For this project, I started out with an old Woolrich winter coat that I thrifted. I cropped it, modified the pockets a little bit, and then added a graphic from a vintage T-shirt. My Dad bought this shirt for my Mom when he visited the Czech Republic more than 20 years ago.",
-      },
+
     ],
   },
   {
@@ -225,24 +211,34 @@ export const sections = [
     items: [
       {
         title: "Custom Motorcycle",
-        details: ["Design", "Research and Development","Parts Selection","Building"],
-        images: ["engineering/Motorcycle/motorcycle_MAIN.jpg",],
-        processImages: ["engineering/Motorcycle/motorcycle_process_1.jpg","engineering/Motorcycle/motorcycle_process_2.jpg","engineering/Motorcycle/motorcycle_process_3.jpg","engineering/Motorcycle/motorcycle_process_4.jpg",],
-        description: "Built from the ground up, this project was years in the making. I started the project when I was 16 to have something to do during the summer and because I loved motorcycles and engineering. I did everything from research and parts selection, to hand sanding every component. ",
+
+        details: [
+          "Design",
+          "Research and Development",
+          "Parts Selection",
+          "Building",
+        ],
+        images: ["engineering/Motorcycle/motorcycle_MAIN.jpg"],
+        processImages: [],
+        description:
+          "Built from the ground up, this project was years in the making. I started the project when I was 16 to have something to do during the summer and because I loved motorcycles and engineering. I did everything from research and parts selection, to hand sanding every component. ",
+
       },
       {
         title: "Robot 2017",
         details: ["Team Captain", "Lead Mechanical Designer"],
         images: ["engineering/Robot 2017/robot2017_main.jpg","engineering/Robot 2017/robot2017_onfield.jpg","engineering/Robot 2017/robot2017_side.jpg","engineering/Robot 2017/robot2017_shooting.jpg","engineering/Robot 2017/robot2017_team.jpg","engineering/Robot 2017/robot2017_bragsheet.jpg",],
         processImages: [],
-        description: "Made during my first year as co-captain of the team, this robot implements a lot of new design philosophies for our team. A major goal of mine was to introduce new design and building standards so that the next generations of the team could have a standardized starting point for the following robots. ",
+        description:
+          "Made during my first year as co-captain of the team, this robot implements a lot of new design philosophies for our team. A major goal of mine was to introduce new design and building standards so that the next generations of the team could have a standardized starting point for the following robots. ",
       },
       {
         title: "Robot 2018",
         details: ["Team Captain", "Lead Mechanical Designer"],
         images: ["engineering/Robot 2018/robot2018_pits.jpg"],
         processImages: [],
-        description: "The team’s most ambitious robot design till this point, this robot pushed the possibilites of what our team was capable of. We implemented a cascading elevaor design, which allows the entire elevator to proportionally move up with the carriage holding the shooting/feeding mechanism. ",
+        description:
+          "The team’s most ambitious robot design till this point, this robot pushed the possibilites of what our team was capable of. We implemented a cascading elevaor design, which allows the entire elevator to proportionally move up with the carriage holding the shooting/feeding mechanism. ",
       },
     ],
   },
@@ -263,7 +259,6 @@ export const sections = [
       "drawing/squigly_girl.jpg",
       "drawing/UNITY.jpg",
       "drawing/wassily_chair_girl.jpg",
-
     ],
   },
 ];
@@ -281,43 +276,42 @@ export const defaultItem = {
 
 export const aboutImage = "photos/about/about_main.jpg";
 
-
-export const inspoImages =[
-"inspo/arecibo.jpg",
-"inspo/bjork_margiela.jpg",
-"inspo/bon_iver_studio.jpg",
-"inspo/braun_nizo.jpg",
-"inspo/turrell.jpg",
-"inspo/brutal_stairs.jpg",
-"inspo/calder_car.jpg",
-"inspo/calder_studio.jpg",
-"inspo/chairs.jpg",
-"inspo/chalayan.jpg",
-"inspo/cig_woman.jpg",
-"inspo/clear_nikon.jpg",
-"inspo/crane_dresden.jpg",
-"inspo/ding_helmets.jpg",
-"inspo/donald_judd.jpg",
-"inspo/frankfurt_airport.jpg",
-"inspo/jean_prouve.jpg",
-"inspo/yohji_ithink.jpg",
-"inspo/kanye_truck.jpg",
-"inspo/kiko_dots.jpg",
-"inspo/lemodulor.jpg",
-"inspo/margiela_codes.jpg",
-"inspo/metalchair.jpg",
-"inspo/moholy_nagy.jpg",
-"inspo/motorcycle.jpg",
-"inspo/newbalance_novacancy.jpg",
-"inspo/orange_brutalism.jpg",
-"inspo/veilance_christo.jpg",
-"inspo/portal_spikey.jpg",
-"inspo/record_player.jpg",
-"inspo/red_yellow_moto.jpg",
-"inspo/ron_arad_chair.jpg",
-"inspo/salomon_solar.jpg",
-"inspo/seam_taping_machine.jpg",
-"inspo/senna_monaco.jpg",
-"inspo/uniqlo_handle.jpg",
-"inspo/veilance_mesh.jpg",
+export const inspoImages = [
+  "inspo/arecibo.jpg",
+  "inspo/bjork_margiela.jpg",
+  "inspo/bon_iver_studio.jpg",
+  "inspo/braun_nizo.jpg",
+  "inspo/turrell.jpg",
+  "inspo/brutal_stairs.jpg",
+  "inspo/calder_car.jpg",
+  "inspo/calder_studio.jpg",
+  "inspo/chairs.jpg",
+  "inspo/chalayan.jpg",
+  "inspo/cig_woman.jpg",
+  "inspo/clear_nikon.jpg",
+  "inspo/crane_dresden.jpg",
+  "inspo/ding_helmets.jpg",
+  "inspo/donald_judd.jpg",
+  "inspo/frankfurt_airport.jpg",
+  "inspo/jean_prouve.jpg",
+  "inspo/yohji_ithink.jpg",
+  "inspo/kanye_truck.jpg",
+  "inspo/kiko_dots.jpg",
+  "inspo/lemodulor.jpg",
+  "inspo/margiela_codes.jpg",
+  "inspo/metalchair.jpg",
+  "inspo/moholy_nagy.jpg",
+  "inspo/motorcycle.jpg",
+  "inspo/newbalance_novacancy.jpg",
+  "inspo/orange_brutalism.jpg",
+  "inspo/veilance_christo.jpg",
+  "inspo/portal_spikey.jpg",
+  "inspo/record_player.jpg",
+  "inspo/red_yellow_moto.jpg",
+  "inspo/ron_arad_chair.jpg",
+  "inspo/salomon_solar.jpg",
+  "inspo/seam_taping_machine.jpg",
+  "inspo/senna_monaco.jpg",
+  "inspo/uniqlo_handle.jpg",
+  "inspo/veilance_mesh.jpg",
 ];
