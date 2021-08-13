@@ -133,7 +133,7 @@ export const sections = [
           "Patterning",
           "Sewing",
         ],
-        images: "painting/DSC00064.jpg",
+        images: ["painting/DSC00064.jpg"],
         description:
           "My first exploration in patterning and making pants from scratch. Patterning took many iterations and multiple muslin protoypes, but this was born out of it. Grey metallic polyester with the back side of green nylon for the pockets and details. ",
       },
