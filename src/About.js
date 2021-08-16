@@ -17,7 +17,8 @@ class About extends Component {
           </div>
           <div className="about-details-info-box">
             <p>
-              Born in Los Angeles, Kio Murayama explores multiple mediums. He
+              Born in Los Angeles, Kio Murayama is a Japanese American
+              explores multiple mediums. He
               loves both art and engineering.
             </p>
           </div>
@@ -31,7 +32,8 @@ class About extends Component {
               Boston University <br></br>
               B.S. Mechanical Engineering <br></br>
               Minor Visual Art <br></br>
-              Contact <br></br>
+              2022 <br></br>
+             <br></br>
             </p>
           </div>
         </div>
@@ -43,10 +45,10 @@ class About extends Component {
             <p>
               Email:{" "}
               <span>
-                <a href="mailto: kioyama@bu.edu">kioyama@bu.edu</a>
+                <a href="mailto: kio.m0051@gmail.com">kio.m0051@gmail.com</a>
               </span>{" "}
               <br></br>
-              Instagram: @kiomurayama<br></br>
+
             </p>
           </div>
         </div>
