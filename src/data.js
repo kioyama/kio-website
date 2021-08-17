@@ -56,17 +56,17 @@ export const sections = [
         ],
       },
       {
-        title: "Three Pant Work Jacket",
+        title: "Six Pant Work Jacket",
 
-        details: ["Design", "Material/ Parts Selection", "Sewing",],
+        details: ["Design", "Material/ Parts Selection", "Patterning","Construction",],
         processImages: [],
-        images: ["sewing/Three Pant Work Jacket/three_pant_WJ_main.jpg"],
+        images: ["sewing/Six Pant Work Jacket/6PWJ_main.JPG","sewing/Six Pant Work Jacket/6PWJ_onbody.JPG","sewing/Six Pant Work Jacket/6PWJ_sleeve.JPG",],
         description:
           "This jacket is made out of three different pairs of pants I had lying around the house. The color and wash on all three are different, yet somehow come together cohesively. The result is a 1/1 garment. About 90% of each pant was used, leaving very little waste. Pocket placement inspired by Katharine Hamnett AW1986 jacket.",
 
       },
       {
-        title: "Six Pant Work Jacket",
+        title: "Three Pant Work Jacket",
 
         details: ["Design", "Material/ Parts Selection", "Sewing",],
         processImages: [],
