@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'NeueHaasGrotDisp';
+  src: url('./fonts/neue-haas-grotesk/NeueHaasGrotDisp-45Light.otf') format('opentype');
+}
