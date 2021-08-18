@@ -87,6 +87,7 @@ class ItemDisplay extends Component {
           )}
           <div className="process-grid">{this.renderProcessGrid()}</div>
         </div>
+        <div className="nav-fill-remaining"></div>
         <div className="footer-border"></div>
       </div>
     );

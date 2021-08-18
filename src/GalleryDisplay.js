@@ -7,6 +7,8 @@ class GalleryDisplay extends Component {
         <div className="gallery">
           <div class="gallery-row">{this.renderImages()}</div>
         </div>
+        <div className="nav-fill-remaining"></div>
+        <div className="footer-border"></div>
       </div>
     );
   }
@@ -21,7 +23,12 @@ class GalleryDisplay extends Component {
     let cols = colImageLists.map((list) => (
       <div className="gallery-col">
         {list.map((img) => (
-          <img src={"photos/" + img} className="gallery-img " alt={img} onClick={ () => this.props.setOverlayImage("photos/" + img)}></img>
+          <img
+            src={"photos/" + img}
+            className="gallery-img "
+            alt={img}
+            onClick={() => this.props.setOverlayImage("photos/" + img)}
+          ></img>
         ))}
       </div>
     ));

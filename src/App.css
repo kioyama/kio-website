@@ -262,11 +262,15 @@ img:not(.overlay-container img) {
 
 .about {
   overflow: auto;
-
-  padding: 1.5rem;
+  padding: 2rem;
   height: 100%;
-  width: 50%;
   box-sizing: border-box;
+}
+.about-wrap {
+  width:50%;
+  height:100vh;
+  box-sizing: border-box;
+  overflow: auto;;
 }
 
 .about-images {
