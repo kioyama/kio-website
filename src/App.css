@@ -15,6 +15,8 @@ h3 {
 a {
   text-decoration: none;
 }
+
+
 .wrapper {
   display: flex;
   height: 100vh;
@@ -194,7 +196,7 @@ img:not(.overlay-container img) {
 .display-detail {
   font-size: 20px;
   color: #757575;
-  font-family: Helvetica, Arial, Sans-Serif;
+  font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 .display-image-wrap {
@@ -295,7 +297,7 @@ img:not(.overlay-container img) {
 }
 
 .about-details-info-box span a {
-  font-family: Helvetica, Arial, Helvetica, sans-serif;
+font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
   flex: 3;
 }
 
@@ -304,7 +306,7 @@ img:not(.overlay-container img) {
   line-height: 1.33;
   color: #757575;
   font-size: 20px;
-  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 .overlay-container {
