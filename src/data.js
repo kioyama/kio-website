@@ -7,7 +7,7 @@ export const sections = [
         title: "As of Nineteen",
         details: [
           "Oil on canvas, oil and paint marker on plywood, 2x4 wood",
-          '28" x 20" x 18"', "2019"
+          '28" x 20" x 18"',
         ],
         images: ["painting/As of Nineteen/asof19_main1.jpg","painting/As of Nineteen/asof19_main2.jpg","painting/As of Nineteen/asof19_main3.jpg","painting/As of Nineteen/asof19_main4.jpg",],
         processImages: [],
@@ -20,7 +20,7 @@ export const sections = [
       },
       {
         title: "Repetition Little Blue Under Red",
-        details: ["Oil on canvas", '18" x 24"',"2019"],
+        details: ["Oil on canvas", '18" x 24"'],
         images: ["painting/Calder study/CalderStudy_website copy.jpg"],
         processImages: [],
       },
@@ -69,6 +69,16 @@ export const sections = [
         title: "Three Pant Work Jacket",
 
         details: ["Design", "Material/ Parts Selection", "Sewing",],
+        processImages: [],
+        images: ["sewing/Three Pant Work Jacket/three_pant_WJ_main.jpg"],
+        description:
+          "This jacket is made out of three different pairs of pants I had lying around the house. The color and wash on all three are different, yet somehow come together cohesively. The result is a 1/1 garment. About 90% of each pant was used, leaving very little waste. Pocket placement inspired by Katharine Hamnett AW1986 jacket.",
+
+      },
+      {
+        title: "Architect's Face Bag",
+
+        details: ["Design", "Material/ Parts Selection", "Patterning","Construction",],
         processImages: [],
         images: ["sewing/Three Pant Work Jacket/three_pant_WJ_main.jpg"],
         description:
@@ -144,7 +154,7 @@ export const sections = [
         title: "Accession V",
         details: [
           "Tarp, wire, aluminum foil, fabric, cardboard, webbing, corner",
-          '28" x 20" x 18"',
+          '60" x 84" x 96"',
         ],
         images: ["sculpture/Accession V/AccessionV_1.JPG","sculpture/Accession V/AccessionV_2.JPG","sculpture/Accession V/AccessionV_3.JPG","sculpture/Accession V/AccessionV_4.JPG","sculpture/Accession V/AccessionV_5.JPG","sculpture/Accession V/AccessionV_6.JPG","sculpture/Accession V/AccessionV_7.JPG"],
         processImages: [],
@@ -153,7 +163,7 @@ export const sections = [
         title: "Justification for Sculpture",
         details: [
           "Wood, paint marker",
-          '28" x 20" x 18"',
+          '10" x 2.5" x 7.5"',
         ],
         images: ["painting/As of Nineteen/asof19_main1.jpg","painting/As of Nineteen/asof19_main2.jpg","painting/As of Nineteen/asof19_main3.jpg","painting/As of Nineteen/asof19_main4.jpg",],
         processImages: [],
@@ -162,7 +172,7 @@ export const sections = [
         title: "Do Not Sit",
         details: [
           "Aluminum foil",
-          '28" x 20" x 18"',
+          '31" x 17" x 20"',
         ],
         images: ["sculpture/AL Foil Chair/ALChair1.jpg","sculpture/AL Foil Chair/ALChair2.jpg",],
         processImages: [],

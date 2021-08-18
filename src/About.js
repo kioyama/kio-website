@@ -17,9 +17,10 @@ class About extends Component {
           </div>
           <div className="about-details-info-box">
             <p>
-              Born in Los Angeles, Kio Murayama is a Japanese American
-              explores multiple mediums. He
-              loves both art and engineering.
+              Born in Los Angeles, Kio Murayama
+              is a multifaceted creator working
+              at the zeitgeist of culture where engineering
+              intersects with art practice.
             </p>
           </div>
         </div>
