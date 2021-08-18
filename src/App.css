@@ -31,6 +31,18 @@ img:not(.overlay-container img) {
   position: absolute;
 }
 
+.footer {
+  width:100%;
+  min-height: 2%;
+  background-color: #b6c4ae;
+}
+.footer-border {
+  border-top: 1px solid #9D9E9B;
+  width:100%;
+  min-height: 2%;
+  background-color: #b6c4ae;
+}
+
 .blush-blush {
   position: absolute;
   width: 100%;
@@ -167,7 +179,11 @@ img:not(.overlay-container img) {
   width: 50%;
   height: 100%;
   box-sizing: border-box;
+}
+
+.display-content {
   padding: 1.5rem;
+
 }
 
 .display-title {
