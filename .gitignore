@@ -24,3 +24,5 @@ yarn-error.log*
 
 /public/photos/*
 /src/fonts/*
+/src/index.js
+/src/index.css
