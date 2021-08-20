@@ -235,9 +235,10 @@ img:not(.overlay-container img) {
   padding-bottom: 2rem;
 }
 .display-description-title {
-  font-weight: 400;
-  font-size: 27px;
+  font-weight: 300;
+  font-size: 22px;
   padding: 0.5rem 0;
+  font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 .gallery {
@@ -299,6 +300,7 @@ img:not(.overlay-container img) {
 .about-details-info-box span a {
 font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
   flex: 3;
+  color: #AF972F;
 }
 
 .about-details-label-box p,

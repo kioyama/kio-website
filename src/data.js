@@ -9,19 +9,19 @@ export const sections = [
           "Oil on canvas, oil and paint marker on plywood, 2x4 wood",
           '28" x 20" x 18"',
         ],
-        images: ["painting/As of Nineteen/asof19_main1.jpg","painting/As of Nineteen/asof19_main2.jpg","painting/As of Nineteen/asof19_main3.jpg","painting/As of Nineteen/asof19_main4.jpg",],
+        images: ["painting/As of Nineteen/asof19_main1.jpg","painting/As of Nineteen/asof19_main2.jpg","painting/As of Nineteen/asof19_main3.jpg",],
         processImages: [],
       },
       {
-        title: "My Brother Is...",
-        details: ["Oil on canvas", '12" x 9"',],
-        images: ["painting/Self Portrait/IMG_2691 copy.jpg","painting/Self Portrait/IMG_2692.jpg"],
+        title: "Untitled",
+        details: ["Oil on canvas", '12" x 16"',],
+        images: ["painting/Father's Day/father_main.jpg",],
         processImages: [],
       },
       {
         title: "Repetition Little Blue Under Red",
         details: ["Oil on canvas", '18" x 24"'],
-        images: ["painting/Calder study/CalderStudy_website copy.jpg"],
+        images: ["painting/Calder study/calderstudy.jpg"],
         processImages: [],
       },
       {
@@ -48,42 +48,44 @@ export const sections = [
         images: ["sewing/Modular Backpack/MAIN PHOTOS/backpack_1.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_2.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_3.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_4.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_5.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_6.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_7.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_8.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_9.jpg",],
         processImages: [],
         description: [
-          "Designed in accordance with what I believe to be the perfect everyday backpack. The process began with researching my favorite backpacks and then meticulously picking out materials and hardware. I wanted to make a bag that suited all of my needs, would last for years, and was modular. The modularity is key in making it last since it allows the pocket designs to be changed at any point.",
-          "",
-          "About 30 separate components patterned by hand.",
-          "",
-          "Padded laptop/ notebook compartment; main compartment with divider organizer; shock cord front panel (for quick access); removable front pouches (turns into side bag).",
+          "Designed to be the ideal everyday backpack, the goal was to make a bag that is durable, modular, multifunctional, and unobtrusive. In making the bag modular, it allows for both alternative functions as well as future modifications of pocket designs.",
+          " ",
+          "Padded laptop/ notebook compartment; main compartment w/ divider organizer; shock cord front panel; removable front pouches (side bag); cinching side straps; expanding water bottle holder; Cordura; YKK Zippers, magnetic closure",
         ],
       },
       {
-        title: "Six Pant Work Jacket",
+        title: "Six Pant Suited Work Jacket",
 
         details: ["Design", "Material/ Parts Selection", "Patterning","Construction",],
         processImages: [],
         images: ["sewing/Six Pant Work Jacket/6PWJ_main.JPG","sewing/Six Pant Work Jacket/6PWJ_onbody.JPG","sewing/Six Pant Work Jacket/6PWJ_sleeve.JPG",],
-        description:
-          "This jacket is made out of three different pairs of pants I had lying around the house. The color and wash on all three are different, yet somehow come together cohesively. The result is a 1/1 garment. About 90% of each pant was used, leaving very little waste. Pocket placement inspired by Katharine Hamnett AW1986 jacket.",
-
+        description:[
+          "Made for a friend, this jacket was meant to take on the spirit of his personality. A friend who likes having his pant pockets empty, carries around miscelaneous items, makes complex remarks, and has a soft rigidity. ",
+          "six pairs of vintage pants, seven pockets, oversized collar, adjustable cuffs"
+        ]
       },
       {
         title: "Three Pant Work Jacket",
 
         details: ["Design", "Material/ Parts Selection", "Sewing",],
         processImages: [],
-        images: ["sewing/Three Pant Work Jacket/three_pant_WJ_main.jpg"],
-        description:
-          "This jacket is made out of three different pairs of pants I had lying around the house. The color and wash on all three are different, yet somehow come together cohesively. The result is a 1/1 garment. About 90% of each pant was used, leaving very little waste. Pocket placement inspired by Katharine Hamnett AW1986 jacket.",
-
+        images: ["sewing/Three Pant Work Jacket/3PWJ_gang.jpg","sewing/Three Pant Work Jacket/3PWJ_gang2.jpg","sewing/Three Pant Work Jacket/3PWJ_gang3.jpg"],
+        description:[
+          "The beginning of experimentation in using vintage pants as the source material to create a new garment. ",
+          "Three pairs of vintage pants"
+        ],
       },
       {
-        title: "Architect's Face Bag",
+        title: "Shasta Crossbody Bag",
 
         details: ["Design", "Material/ Parts Selection", "Patterning","Construction",],
         processImages: [],
-        images: ["sewing/Three Pant Work Jacket/three_pant_WJ_main.jpg"],
-        description:
-          "This jacket is made out of three different pairs of pants I had lying around the house. The color and wash on all three are different, yet somehow come together cohesively. The result is a 1/1 garment. About 90% of each pant was used, leaving very little waste. Pocket placement inspired by Katharine Hamnett AW1986 jacket.",
-
+        images: ["sewing/Shasta Bag/shastabag_1.jpg","sewing/Shasta Bag/shastabag_2.jpg","sewing/Shasta Bag/shastabag_3.jpg","sewing/Shasta Bag/shastabag_5.jpg","sewing/Shasta Bag/shastabag_6.jpg",],
+        description:[
+          "Designed with architectural imagery in mind. Creating movement in the bag",
+          " through the closure mechanism and a series of inverted box pleats. ",
+          "Seven pairs of pants, cut off fabrics, removable internal pouch, four external pockets, sunglass holder, magnetic closure, padded strap",
+        ]
       },
       {
         title: "Space-Ready Pillow Bag",
@@ -95,9 +97,10 @@ export const sections = [
         ],
         processImages: [],
 
-        images: ["sewing/Space-Ready Pillow Side bag/Pillow_bag_1.jpg","sewing/Space-Ready Pillow Side bag/Pillow_bag_2.jpg","sewing/Space-Ready Pillow Side bag/Pillow_bag_3.jpg","sewing/Space-Ready Pillow Side bag/pillow_bag_inside.jpg","sewing/Space-Ready Pillow Side bag/pillow_bag_top.jpg",],
-        description: "A bag made for my best friend. I tried something new by using a translucent nylon with pillow stuffing in between layer. Sewing lines on the padding created a protective and comfortable bag.",
-
+        images: ["sewing/Space-Ready Pillow Side bag/Pillow_bag_1.jpg","sewing/Space-Ready Pillow Side bag/Pillow_bag_2.jpg","sewing/Space-Ready Pillow Side bag/Pillow_bag_3.jpg","sewing/Space-Ready Pillow Side bag/pillow_bag_inside.jpg",],
+        description: [
+          "",
+        ]
       },
 
       {
@@ -111,8 +114,8 @@ export const sections = [
         processImages: [],
         images: ["sewing/Torso bag/torso_bag_main.jpg","sewing/Torso bag/torso_bag_folded.jpg","sewing/Torso bag/torso_bag_closeup.jpg","sewing/Torso bag/torso_bag_inside.jpg","sewing/Torso bag/torso_bag_onbody.jpg",],
         description: [
-          "Inspired by early 90s Prada and Miu Miu bags, this side bag was an experiment in a new type of pattern cutting for me. The goal was to make a bag that conforms to my body and can be worn under a coat rather than on top of one.",
-          "Made out of an old pair of pants.",
+          "Inspired by early 90s Miu Miu and Prada bags, this side bag was an experiment in a new type of pattern cutting. The goal was to make a bag that conforms to the body and can be worn under a coat.",
+          "Vintage pants, webbing, magnetic closure",
         ],
       },
       {
@@ -126,11 +129,11 @@ export const sections = [
         processImages: [],
 
         images: ["sewing/Paint brush holder/paint_brush_holder_main.jpg","sewing/Paint brush holder/paint_brush_holder_closeup.jpg","sewing/Paint brush holder/paint_brush_holder_rolled.jpg",],
-        description: "Made to hold twelve of my most used paint brushes. It was meant to not only protext my brushes but also give me a simple grab and go solution for when I need to take my brushes somewhere and I don’t want the bristles to get ruined in my backpack.",
+        description: "A fun project meant to give paint brushes a home.",
 
       },
       {
-        title: "Hiker Pants",
+        title: "Metallic Hiker Pants",
         details: [
           "Design",
           "Material/ Parts Selection",
@@ -139,11 +142,23 @@ export const sections = [
         ],
         processImages: [],
 
-        images: ["sewing/Hiker Pants/hiker_pants_main.jpg","sewing/Hiker Pants/hiker_pants_back.jpg","sewing/Hiker Pants/hiker_pants_pocket.jpg","sewing/Hiker Pants/hiker_pants_zipper.jpg","sewing/Hiker Pants/hiker_pants_onbody.jpg",],
+        images: ["sewing/Hiker Pants/hiker_pants_main.jpg","sewing/Hiker Pants/hiker_pants_back.jpg","sewing/Hiker Pants/hiker_pants_pocket.jpg",],
         description: "My first exploration in patterning and making pants from scratch. Patterning took many iterations and multiple muslin protoypes, but this was born out of it. Grey metallic polyester with the back side of green nylon for the pockets and details. ",
 
       },
+      {
+        title: "Double Knee Pants",
+        details: [
+          "Design",
+          "Material/ Parts Selection",
+          "Patterning",
+          "Construction",
+        ],
+        processImages: [],
 
+        images: ["sewing/Double knee pants/doubleknee_1.jpg","sewing/Double knee pants/doubleknee_2.jpg","sewing/Double knee pants/doubleknee_3.jpg","sewing/Double knee pants/doubleknee_4.jpg",],
+        description: "Two pairs of vintage pants reworked into a new form. Terraced and split hemline for a fluid transition into shoes.",
+      },
     ],
   },
   {
@@ -153,25 +168,28 @@ export const sections = [
       {
         title: "Accession V",
         details: [
-          "Tarp, wire, aluminum foil, fabric, cardboard, webbing, corner",
+          "Tarp, wire, aluminum foil, fabric, webbing, corner",
           '60" x 84" x 96"',
         ],
         images: ["sculpture/Accession V/AccessionV_1.JPG","sculpture/Accession V/AccessionV_2.JPG","sculpture/Accession V/AccessionV_3.JPG","sculpture/Accession V/AccessionV_4.JPG","sculpture/Accession V/AccessionV_5.JPG","sculpture/Accession V/AccessionV_6.JPG","sculpture/Accession V/AccessionV_7.JPG"],
         processImages: [],
       },
       {
-        title: "Justification for Sculpture",
+        title: "Justification of Sculpture",
         details: [
-          "Wood, paint marker",
+          "Wood, acrylic paint marker",
           '10" x 2.5" x 7.5"',
         ],
-        images: ["painting/As of Nineteen/asof19_main1.jpg","painting/As of Nineteen/asof19_main2.jpg","painting/As of Nineteen/asof19_main3.jpg","painting/As of Nineteen/asof19_main4.jpg",],
+        images: ["sculpture/Justification of Sculpture/jos_1.jpg","sculpture/Justification of Sculpture/jos_3.jpg",
+                 "sculpture/Justification of Sculpture/jos_5.jpg","sculpture/Justification of Sculpture/jos_7.jpg",
+                 "sculpture/Justification of Sculpture/jos_9.jpg","sculpture/Justification of Sculpture/jos_11.jpg",
+                 "sculpture/Justification of Sculpture/jos_13.jpg",],
         processImages: [],
       },
       {
-        title: "Do Not Sit",
+        title: "Dorm Forms: Do Not Sit",
         details: [
-          "Aluminum foil",
+          "Aluminum foil, packing tape",
           '31" x 17" x 20"',
         ],
         images: ["sculpture/AL Foil Chair/ALChair1.jpg","sculpture/AL Foil Chair/ALChair2.jpg",],
@@ -183,16 +201,17 @@ export const sections = [
     title: "Drawing",
     type: "gallery_view",
     images: [
+      "drawing/partnerportrait.jpg",
       "drawing/silver_girl.jpg",
-      "drawing/black_box_hand.jpg",
       "drawing/christian_bale.jpg",
-      "drawing/jonas_dark.jpg",
-      "drawing/cowboy.jpg",
-      "drawing/frank_ocean.jpg",
-      "drawing/winged_victory.jpg",
-      "drawing/michelangelo_study.jpg",
       "drawing/pharell.jpg",
+      "drawing/automatic.jpg",
+      "drawing/frank_ocean.jpg",
+      "drawing/jonas_dark.jpg",
+      "drawing/michelangelo_study.jpg",
+      "drawing/cowboy.jpg",
       "drawing/solarized_eyes.jpg",
+      "drawing/winged_victory.jpg",
       "drawing/squigly_girl.jpg",
       "drawing/UNITY.jpg",
       "drawing/wassily_chair_girl.jpg",
@@ -218,6 +237,7 @@ export const sections = [
       "photography/13_safin_ICA_smoke-min.jpg",
       "photography/14_yutenji_escalator_VISION.JPG",
       "photography/15_dresden_theatre.jpg",
+
       "photography/16_passive_aggressive_youth-min.jpg",
       "photography/17_bread_machine.jpg",
       "photography/18_aaron_sevag_rock.jpg",
@@ -230,6 +250,7 @@ export const sections = [
       "photography/24_willie_synth.jpg",
       "photography/25_chaos_disorder.jpg",
       "photography/26_crane_warren.jpg",
+      "photography/steve_dj.jpg",
       "photography/27_kacper_guitar.jpg",
       "photography/28_Mikuto_mexicanbar.JPG",
       "photography/29_spikeball.jpg",
@@ -251,6 +272,8 @@ export const sections = [
       "photography/44_crane_dresden.jpg",
       "photography/45_sevag_sza.jpg",
       "photography/46_nakameguro_girls.JPG",
+
+
     ],
   },
   {
@@ -269,7 +292,7 @@ export const sections = [
         images: ["engineering/Motorcycle/motorcycle_MAIN.jpg","engineering/Motorcycle/motorcycle_topdown.jpg","engineering/Motorcycle/motorcycle_frontfork.jpg","engineering/Motorcycle/motorcycle_process_1.jpg"],
         processImages: [],
         description:
-          "Built entirely from the frame up, this project was made in accordance with what I saw to be perfect motorcycle at the age of 16. The goal was to revitalize an old neglected motorcycle into a more seamless package.",
+          "Built from the frame up, this bike was made to be a 16 year old's dream motorcycle. The goal was to revitalize a neglected motorcycle into a more seamless package.",
 
       },
       {
@@ -278,7 +301,7 @@ export const sections = [
         images: ["engineering/Robot 2017/robot2017_side.jpg","engineering/Robot 2017/robot2017_onfield.jpg","engineering/Robot 2017/robot2017_shooting.jpg","engineering/Robot 2017/robot2017_team.jpg","engineering/Robot 2017/robot2017_bragsheet.jpg",],
         processImages: [],
         description:
-          "Made during my first year as co-captain of the team, this robot implements a lot of new design philosophies for the team. A major goal was to introduce new design and building standards in order to better organize the team's workflow in the years to come. ",
+          "This robot implements a lot of new design philosophies for the team. A major goal was to introduce new design and building standards in order to better organize the team's workflow in the years to come. ",
       },
       {
         title: "Robot 2018",
@@ -286,7 +309,7 @@ export const sections = [
         images: ["engineering/Robot 2018/robot2018_hanging.jpg","engineering/Robot 2018/robot2018_scoring.jpg","engineering/Robot 2018/robot2018_pits.jpg","engineering/Robot 2018/robot2018_team.jpg","engineering/Robot 2018/robot2018_bragsheet.jpg",],
         processImages: [],
         description:
-          "The team’s most ambitious robot design till this point, this robot pushed the possibilites of what our team was capable of. We implemented a cascading elevaor design, which allows the entire elevator to proportionally move up with the carriage holding the shooting/feeding mechanism. ",
+          "The team’s most ambitious design up until this point, this robot pushed the possibilites of what the team was capable of. We implemented a cascading elevtor design, which allows the entire elevator to proportionally move up with the carriage holding the shooting/feeding mechanism. ",
       },
     ],
   },
