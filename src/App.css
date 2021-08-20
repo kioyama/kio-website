@@ -242,7 +242,7 @@ img:not(.overlay-container img) {
 
 .gallery {
   padding: 1rem;
-  overflow: auto;
+
 }
 .gallery-row {
   display: flex;
