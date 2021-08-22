@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div className="about-wrap">
         <div className="about">
-          <h2 className="display-title ">About</h2>
+          <h2 className="display-title ">about</h2>
           <div className="about-images">
             <img src={aboutImage} alt="Kio Murayama"></img>
             <img src={aboutImage} alt="Kio Murayama"></img>
@@ -19,7 +19,7 @@ class About extends Component {
             <div className="about-details-info-box">
               <p>
                 Born in Los Angeles, Kio Murayama is a multifaceted creator
-                working at the zeitgeist of culture where engineering intersects
+                working in a space where engineering intersects
                 with art practice.
               </p>
             </div>
