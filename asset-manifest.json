@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.8f80a8c7.chunk.css",
-    "main.js": "./static/js/main.1b17cc65.chunk.js",
-    "main.js.map": "./static/js/main.1b17cc65.chunk.js.map",
+    "main.css": "./static/css/main.df8fa1e9.chunk.css",
+    "main.js": "./static/js/main.cf2fb252.chunk.js",
+    "main.js.map": "./static/js/main.cf2fb252.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.7aeb059e.js",
     "runtime-main.js.map": "./static/js/runtime-main.7aeb059e.js.map",
     "static/js/2.2af7a7fa.chunk.js": "./static/js/2.2af7a7fa.chunk.js",
@@ -10,14 +10,15 @@
     "static/js/3.64d26d18.chunk.js": "./static/js/3.64d26d18.chunk.js",
     "static/js/3.64d26d18.chunk.js.map": "./static/js/3.64d26d18.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.8f80a8c7.chunk.css.map": "./static/css/main.8f80a8c7.chunk.css.map",
+    "static/css/main.df8fa1e9.chunk.css.map": "./static/css/main.df8fa1e9.chunk.css.map",
     "static/js/2.2af7a7fa.chunk.js.LICENSE.txt": "./static/js/2.2af7a7fa.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/NeueHaasGrotDisp-45Light.69275f27.otf",
     "static/media/logo.6ce24c58.svg": "./static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7aeb059e.js",
     "static/js/2.2af7a7fa.chunk.js",
-    "static/css/main.8f80a8c7.chunk.css",
-    "static/js/main.1b17cc65.chunk.js"
+    "static/css/main.df8fa1e9.chunk.css",
+    "static/js/main.cf2fb252.chunk.js"
   ]
 }
