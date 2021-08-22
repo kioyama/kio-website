@@ -4,27 +4,25 @@ import { aboutImage } from "./data";
 class About extends Component {
   render() {
     return (
-      <div className="about">
-        <h2 className="display-title ">About</h2>
-        <div className="about-images">
-          <img src={aboutImage} alt="Kio Murayama"></img>
-          <img src={aboutImage} alt="Kio Murayama"></img>
-          <img src={aboutImage} alt="Kio Murayama"></img>
-        </div>
-        <div className="about-details">
-          <div className="about-details-label-box ">
-            <p>Biography</p>
+      <div className="about-wrap">
+        <div className="about">
+          <h2 className="display-title ">about</h2>
+          <div className="about-images">
+            <img src={aboutImage} alt="Kio Murayama"></img>
+            <img src={aboutImage} alt="Kio Murayama"></img>
+            <img src={aboutImage} alt="Kio Murayama"></img>
           </div>
-          <div className="about-details-info-box">
-            <p>
-              Born in Los Angeles, Kio Murayama is a multifaceted creator working
-              in a space where engineering intersects with art practice.
-            </p>
-          </div>
-        </div>
-        <div className="about-details">
-          <div className="about-details-label-box ">
-            <p>Education</p>
+          <div className="about-details">
+            <div className="about-details-label-box ">
+              <p>Biography</p>
+            </div>
+            <div className="about-details-info-box">
+              <p>
+                Born in Los Angeles, Kio Murayama is a multifaceted creator
+                working in a space where engineering intersects
+                with art practice.
+              </p>
+            </div>
           </div>
           <div className="about-details-info-box">
             <p>

@@ -77,7 +77,6 @@ class ItemDisplay extends Component {
             </div>
           </div>
           <div className="display-description">
-            <h3 className="display-description-title">Description:</h3>
             <p className="display-detail">{this.props.item.description}</p>
           </div>
           {this.props.item.processImages.length > 0 ? (

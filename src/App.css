@@ -3,6 +3,7 @@ h2,
 p,
 a {
   font-family: reross-quadratic, sans-serif;
+  letter-spacing:.07rem;
 }
 p,
 h1,
@@ -179,6 +180,8 @@ img:not(.overlay-container img) {
   width: 50%;
   height: 100%;
   box-sizing: border-box;
+  display:flex;
+  flex-direction:column;
 }
 
 .display-content {
@@ -194,9 +197,11 @@ img:not(.overlay-container img) {
 }
 
 .display-detail {
-  font-size: 20px;
+  font-size: 13px;
   color: #757575;
   font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing:.05rem;
+  line-height: 1rem;
 }
 
 .display-image-wrap {
@@ -213,13 +218,14 @@ img:not(.overlay-container img) {
 }
 
 .display-image-wrap .icon {
-  font-size: 72px;
+  font-size: 50px;
+  color:#B4B2AD;
 }
 
 .display-image-wrap .icon-disabled {
   color: #9D9E9B;
   opacity: 0.1;
-  font-size: 72px;
+  font-size: 50px;
 }
 
 .display-image-wrap .icon:hover {
@@ -228,11 +234,19 @@ img:not(.overlay-container img) {
 }
 
 .display-image {
-  width: 80%;
+  width: 85%;
+  height:63vh;
+  object-fit:contain;
 }
 
 .display-description {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
+
+
+  line-height:1.25;
 }
 .display-description-title {
   font-weight: 300;
@@ -300,7 +314,11 @@ img:not(.overlay-container img) {
 .about-details-info-box span a {
 font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
   flex: 3;
+<<<<<<< HEAD
   color: #AF972F;
+=======
+  color:#AF972F;
+>>>>>>> kio-branch
 }
 
 .about-details-label-box p,
@@ -309,6 +327,7 @@ font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
   color: #757575;
   font-size: 20px;
   font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing:.05rem;
 }
 
 .overlay-container {
