@@ -74,25 +74,6 @@ export const sections = [
         details: [
           "Design", "Textile/ Hardware Selection", "Pattern", "Construction"
         ],
-<<<<<<< HEAD
-        images: ["sewing/Modular Backpack/MAIN PHOTOS/backpack_1.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_2.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_3.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_4.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_5.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_6.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_7.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_8.jpg","sewing/Modular Backpack/MAIN PHOTOS/backpack_9.jpg",],
-        processImages: [],
-        description: [
-<<<<<<< HEAD
-          "Designed to be the ideal everyday backpack, the goal was to make a bag that is durable, modular, multifunctional, and unobtrusive. In making the bag modular, it allows for both alternative functions as well as future modifications of pocket designs.",
-          " ",
-          "Padded laptop/ notebook compartment; main compartment w/ divider organizer; shock cord front panel; removable front pouches (side bag); cinching side straps; expanding water bottle holder; Cordura; YKK Zippers, magnetic closure",
-        ],
-      },
-      {
-        title: "Six Pant Suited Work Jacket",
-
-        details: ["Design", "Material/ Parts Selection", "Patterning","Construction",],
-=======
-          "Designed to be the ideal everyday backpack, the goal was to make a bag that is durable, modular, multifunctional, and unobtrusive. In making the bag modular, it allows for alternative functions as well as future modification of pocket designs.",
-          " ",
-          "Padded laptop/ notebook compartment; main compartment w/ divider organizer; shock cord front panel; removable front pouches (side bag); cinching side straps; expanding water bottle holder; Cordura; YKK Zippers, Fidlock magnetic sternum closure",
-=======
         materials: [
           "Padded laptop/ notebook compartment",
           "main compartment w/ divider organizer",
@@ -102,7 +83,6 @@ export const sections = [
           "Cordura",
           "YKK Zippers",
           "Fidlock magnetic sternum closure"
->>>>>>> kio-branch
         ],
         images: [
           "sewing/Modular Backpack/MAIN PHOTOS/backpack_1.jpg",
@@ -121,22 +101,6 @@ export const sections = [
             " alternative functions as well as future modification of pocket designs."
       }, {
         title: "saf Work Jacket",
-<<<<<<< HEAD
-        details: ["Design", "Textile/ Hardware Selection", "Pattern","Construction",],
->>>>>>> kio-branch
-        processImages: [],
-        images: ["sewing/Six Pant Work Jacket/6PWJ_main.JPG","sewing/Six Pant Work Jacket/6PWJ_onbody.JPG","sewing/Six Pant Work Jacket/6PWJ_sleeve.JPG",],
-        description:[
-          "Made for a friend, this jacket was meant to take on the spirit of his personality. A friend who likes having his pant pockets empty, carries around miscelaneous items, makes complex remarks, and has a soft rigidity. ",
-<<<<<<< HEAD
-          "six pairs of vintage pants, seven pockets, oversized collar, adjustable cuffs"
-=======
-          "six pairs of vintage pants, six external pockets, internal pocket, oversized collar, adjustable cuffs"
->>>>>>> kio-branch
-        ]
-      },
-      {
-=======
         details: [
           "Design", "Textile/ Hardware Selection", "Pattern", "Construction"
         ],
@@ -151,7 +115,6 @@ export const sections = [
             "sonality. A friend who likes having his pant pockets empty, viciously rea" +
             "ds and writes, makes complex remarks, and has a soft rigidity. "
       }, {
->>>>>>> kio-branch
         title: "Shasta Crossbody Bag",
 
         details: [
@@ -167,26 +130,6 @@ export const sections = [
           "padded strap"
         ],
         processImages: [],
-<<<<<<< HEAD
-<<<<<<< HEAD
-        images: ["sewing/Three Pant Work Jacket/3PWJ_gang.jpg","sewing/Three Pant Work Jacket/3PWJ_gang2.jpg","sewing/Three Pant Work Jacket/3PWJ_gang3.jpg"],
-        description:[
-          "The beginning of experimentation in using vintage pants as the source material to create a new garment. ",
-          "Three pairs of vintage pants"
-        ],
-      },
-      {
-        title: "Shasta Crossbody Bag",
-=======
-        images: ["sewing/Shasta Bag/shastabag_1.jpg","sewing/Shasta Bag/shastabag_2.jpg","sewing/Shasta Bag/shastabag_3.jpg","sewing/Shasta Bag/shastabag_5.jpg","sewing/Shasta Bag/shastabag_6.jpg",],
-        description:[
-          "Designed with the image of a symmetrical building in mind. A focus on creating movement in the bag",
-          " through the closure mechanism and a series of inverted box pleats. ",
-          "Seven pairs of vintage pants, cut off fabrics, removable internal pouch, four external pockets, sunglass holder, Fidlock magnetic closure, padded strap",
-        ]
-      },
-      {
-=======
         images: [
           "sewing/Shasta Bag/shastabag_1.jpg", "sewing/Shasta Bag/shastabag_2.jpg", "sewing/Shasta Bag/shastabag_3.jpg", "sewing/Shasta Bag/shastabag_5.jpg", "sewing/Shasta Bag/shastabag_6.jpg"
         ],
@@ -194,9 +137,7 @@ export const sections = [
             "ace of a bag. A focus on creating movement in the bag through the closure" +
             " mechanism and a series of inverted box pleats. "
       }, {
->>>>>>> kio-branch
         title: "Three Pant Work Jacket",
->>>>>>> kio-branch
 
         details: [
           "Design", "Textile/ Hardware Selection", "Sewing"
@@ -205,31 +146,12 @@ export const sections = [
           "Three pairs of vintage pants", "pocket placement inspired by Katharine Hamnett AW1986 jacket"
         ],
         processImages: [],
-<<<<<<< HEAD
-<<<<<<< HEAD
-        images: ["sewing/Shasta Bag/shastabag_1.jpg","sewing/Shasta Bag/shastabag_2.jpg","sewing/Shasta Bag/shastabag_3.jpg","sewing/Shasta Bag/shastabag_5.jpg","sewing/Shasta Bag/shastabag_6.jpg",],
-        description:[
-          "Designed with architectural imagery in mind. Creating movement in the bag",
-          " through the closure mechanism and a series of inverted box pleats. ",
-          "Seven pairs of pants, cut off fabrics, removable internal pouch, four external pockets, sunglass holder, magnetic closure, padded strap",
-        ]
-=======
-        images: ["sewing/Three Pant Work Jacket/3PWJ_gang.jpg","sewing/Three Pant Work Jacket/3PWJ_gang2.jpg","sewing/Three Pant Work Jacket/3PWJ_gang3.jpg"],
-        description:[
-          "The beginning of experimentation in using vintage pants as the source material to create a new garment. In using pants which have already lived a life, the aim is to cause some sort of interaction between the separate lives.",
-          "Three pairs of vintage pants; pocket placement inspired by Katharine Hamnett AW1986 jacket."
-        ],
->>>>>>> kio-branch
-      },
-      {
-=======
         images: [
           "sewing/Three Pant Work Jacket/3PWJ_gang.jpg", "sewing/Three Pant Work Jacket/3PWJ_gang2.jpg", "sewing/Three Pant Work Jacket/3PWJ_gang3.jpg"
         ],
         description: "The beginning of experimentation in using vintage pants as the source mat" +
             "erial to create a new garment."
       }, {
->>>>>>> kio-branch
         title: "aron Pillow Bag",
         details: [
           "Design", "Textile/ Hardware Selection", "Pattern", "Construction"
@@ -239,19 +161,6 @@ export const sections = [
         ],
         processImages: [],
 
-<<<<<<< HEAD
-        images: ["sewing/Space-Ready Pillow Side bag/Pillow_bag_1.jpg","sewing/Space-Ready Pillow Side bag/Pillow_bag_2.jpg","sewing/Space-Ready Pillow Side bag/Pillow_bag_3.jpg","sewing/Space-Ready Pillow Side bag/pillow_bag_inside.jpg",],
-        description: [
-<<<<<<< HEAD
-          "",
-=======
-          "Made for a friend, this bag aimed to supplement his always on-the-go lifestyle. A friend who can be found in any corner of LA, will take on any difficulty of a hike, and has a lot of scratches on his glasses.",
-          "fully padded, riptop translucent nylon, angled zipper entry"
->>>>>>> kio-branch
-        ]
-      },
-      {
-=======
         images: [
           "sewing/Space-Ready Pillow Side bag/Pillow_bag_1.jpg", "sewing/Space-Ready Pillow Side bag/Pillow_bag_2.jpg", "sewing/Space-Ready Pillow Side bag/Pillow_bag_3.jpg", "sewing/Space-Ready Pillow Side bag/pillow_bag_inside.jpg"
         ],
@@ -259,35 +168,19 @@ export const sections = [
             "style. A friend who can be found in any corner of LA, will take on any di" +
             "fficulty of a hike, and has a lot of scratches on his glasses."
       }, {
->>>>>>> kio-branch
         title: "Celery Root Pants",
         details: [
           "Design", "Textile/ Hardware Selection", "Pattern", "Construction"
         ],
         materials: ["Red stiching, six pockets"],
         processImages: [],
-<<<<<<< HEAD
-        images: ["sewing/Torso bag/torso_bag_main.jpg","sewing/Torso bag/torso_bag_folded.jpg","sewing/Torso bag/torso_bag_closeup.jpg","sewing/Torso bag/torso_bag_inside.jpg","sewing/Torso bag/torso_bag_onbody.jpg",],
-        description: [
-          "Inspired by early 90s Miu Miu and Prada bags, this side bag was an experiment in a new type of pattern cutting. The goal was to make a bag that conforms to the body and can be worn under a coat.",
-          "Vintage pants, webbing, magnetic closure",
-        ],
-=======
 
-<<<<<<< HEAD
-        images: ["sewing/Double knee pants/doubleknee_1.jpg","sewing/Double knee pants/doubleknee_2.jpg","sewing/Double knee pants/doubleknee_5.jpg","sewing/Double knee pants/doubleknee_3.jpg","sewing/Double knee pants/doubleknee_4.jpg",],
-        description: "Two pairs of vintage pants reworked to withstand the Boston winters. Terraced and split hemline for fluid transition into shoes. red stitching",
->>>>>>> kio-branch
-      },
-      {
-=======
         images: [
           "sewing/Double knee pants/doubleknee_1.jpg", "sewing/Double knee pants/doubleknee_2.jpg", "sewing/Double knee pants/doubleknee_5.jpg", "sewing/Double knee pants/doubleknee_3.jpg", "sewing/Double knee pants/doubleknee_4.jpg"
         ],
         description: "Two pairs of vintage pants reworked to withstand the Boston winters. Terr" +
             "aced and split hemline for fluid transition into shoes."
       }, {
->>>>>>> kio-branch
         title: "Torso Bag",
         details: [
           "Design", "Textile/ Hardware Selection", "Pattern", "Construction"
@@ -296,22 +189,6 @@ export const sections = [
           "Vintage pants", "webbing", "Fidlock magnetic closure"
         ],
         processImages: [],
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-        images: ["sewing/Paint brush holder/paint_brush_holder_main.jpg","sewing/Paint brush holder/paint_brush_holder_closeup.jpg","sewing/Paint brush holder/paint_brush_holder_rolled.jpg",],
-        description: "A fun project meant to give paint brushes a home.",
-
-=======
-        images: ["sewing/Torso bag/torso_bag_main.jpg","sewing/Torso bag/torso_bag_folded.jpg","sewing/Torso bag/torso_bag_closeup.jpg","sewing/Torso bag/torso_bag_inside.jpg","sewing/Torso bag/torso_bag_onbody.jpg",],
-        description: [
-          "Inspired by MIU MIU and Junya Watanabe bags, this side bag was an experiment in a different type of pattern cutting. The goal was to make a bag that conforms to the body and can be worn under a coat.",
-          " vintage pants, webbing, Fidlock magnetic closure",
-        ],
->>>>>>> kio-branch
-      },
-      {
-=======
         images: [
           "sewing/Torso bag/torso_bag_main.jpg", "sewing/Torso bag/torso_bag_folded.jpg", "sewing/Torso bag/torso_bag_closeup.jpg", "sewing/Torso bag/torso_bag_inside.jpg", "sewing/Torso bag/torso_bag_onbody.jpg"
         ],
@@ -319,7 +196,6 @@ export const sections = [
             "ent in a different type of pattern cutting. The goal was to make a bag th" +
             "at conforms to the body and can be worn under a coat."
       }, {
->>>>>>> kio-branch
         title: "Metallic Hiker Pants",
         details: [
           "Design", "Textile/ Hardware Selection", "Pattern", "Construction"
@@ -329,35 +205,6 @@ export const sections = [
         ],
         processImages: [],
 
-<<<<<<< HEAD
-        images: ["sewing/Hiker Pants/hiker_pants_main.jpg","sewing/Hiker Pants/hiker_pants_back.jpg","sewing/Hiker Pants/hiker_pants_pocket.jpg",],
-<<<<<<< HEAD
-        description: "My first exploration in patterning and making pants from scratch. Patterning took many iterations and multiple muslin protoypes, but this was born out of it. Grey metallic polyester with the back side of green nylon for the pockets and details. ",
-
-      },
-      {
-        title: "Double Knee Pants",
-        details: [
-          "Design",
-          "Material/ Parts Selection",
-          "Patterning",
-          "Construction",
-        ],
-        processImages: [],
-
-        images: ["sewing/Double knee pants/doubleknee_1.jpg","sewing/Double knee pants/doubleknee_2.jpg","sewing/Double knee pants/doubleknee_3.jpg","sewing/Double knee pants/doubleknee_4.jpg",],
-        description: "Two pairs of vintage pants reworked into a new form. Terraced and split hemline for a fluid transition into shoes.",
-      },
-=======
-        description: "A study in Pattern and creating made-to-measurement pants. Grey metallic polyester; back side of green nylon ",
-
-      },
->>>>>>> kio-branch
-    ],
-  },
-  {
-    title: "sculpture",
-=======
         images: [
           "sewing/Hiker Pants/hiker_pants_main.jpg", "sewing/Hiker Pants/hiker_pants_back.jpg", "sewing/Hiker Pants/hiker_pants_pocket.jpg"
         ],
@@ -366,7 +213,6 @@ export const sections = [
     ]
   }, {
     title: "painting",
->>>>>>> kio-branch
     type: "item_view",
     items: [
       {
@@ -412,18 +258,6 @@ export const sections = [
     type: "gallery_view",
     images: [
       "drawing/partnerportrait.jpg",
-<<<<<<< HEAD
-      "drawing/silver_girl.jpg",
-      "drawing/christian_bale.jpg",
-      "drawing/pharell.jpg",
-      "drawing/automatic.jpg",
-      "drawing/frank_ocean.jpg",
-      "drawing/jonas_dark.jpg",
-      "drawing/michelangelo_study.jpg",
-      "drawing/cowboy.jpg",
-      "drawing/solarized_eyes.jpg",
-      "drawing/winged_victory.jpg",
-=======
       "drawing/automatic.jpg",
       "drawing/winged_victory.jpg",
       "drawing/pharell.jpg",
@@ -435,7 +269,6 @@ export const sections = [
       "drawing/michelangelo_study.jpg",
       "drawing/christian_bale.jpg",
       "drawing/jonas_dark.jpg",
->>>>>>> kio-branch
       "drawing/squigly_girl.jpg",
       "drawing/UNITY.jpg",
       "drawing/wassily_chair_girl.jpg"
@@ -458,7 +291,6 @@ export const sections = [
       "photography/12_mikuto_mirror.jpg",
       "photography/14_yutenji_escalator_VISION.jpg",
       "photography/15_dresden_theatre.jpg",
-
       "photography/16_passive_aggressive_youth-min.jpg",
       "photography/17_bread_machine.jpg",
       "photography/18_aaron_sevag_rock.jpg",
@@ -487,18 +319,9 @@ export const sections = [
       "photography/43_safin_gg_doubleexp.jpg",
       "photography/44_crane_dresden.jpg",
       "photography/45_sevag_sza.jpg",
-<<<<<<< HEAD
-      "photography/46_nakameguro_girls.JPG",
-
-
-    ],
-  },
-  {
-=======
       "photography/46_nakameguro_girls.jpg"
     ]
   }, {
->>>>>>> kio-branch
     title: "engineering",
     type: "item_view",
     items: [
@@ -513,22 +336,10 @@ export const sections = [
           "engineering/Motorcycle/motorcycle_MAIN.jpg", "engineering/Motorcycle/motorcycle_topdown.jpg", "engineering/Motorcycle/motorcycle_frontfork.jpg", "engineering/Motorcycle/motorcycle_process_1.jpg"
         ],
         processImages: [],
-<<<<<<< HEAD
-        description:
-<<<<<<< HEAD
-          "Built from the frame up, this bike was made to be a 16 year old's dream motorcycle. The goal was to revitalize a neglected motorcycle into a more seamless package.",
-=======
-          "Built from the frame up, this bike was made to be a 16 year old's dream motorcycle. The goal was to revitalize a neglected motorcycle into a cafe racer package.",
->>>>>>> kio-branch
-
-      },
-      {
-=======
         description: "Designed and built entirely from the frame up, this bike was made to be a" +
             " 16 year old's dream motorcycle. The goal was to revitalize a neglected m" +
             "otorcycle into a cafe racer."
       }, {
->>>>>>> kio-branch
         title: "Robot 2018",
         details: [
           "Team Captain", "Lead Mechanical Designer"
@@ -540,24 +351,9 @@ export const sections = [
           "engineering/Robot 2018/robot2018_hanging.jpg", "engineering/Robot 2018/robot2018_scoring.jpg", "engineering/Robot 2018/robot2018_pits.jpg", "engineering/Robot 2018/robot2018_team.jpg", "engineering/Robot 2018/robot2018_bragsheet.jpg"
         ],
         processImages: [],
-<<<<<<< HEAD
-<<<<<<< HEAD
-        description:
-          "This robot implements a lot of new design philosophies for the team. A major goal was to introduce new design and building standards in order to better organize the team's workflow in the years to come. ",
-=======
-        description:[
-          "The team’s most ambitious design up until this point. This robot pushed the possibilites of what the team was capable of.",
-          " cascading elevator design; compliant ball shooting/feeding mechanism; winch climbing system ",
-
-        ]
->>>>>>> kio-branch
-      },
-      {
-=======
         description: "The team’s most ambitious design up until this point. This robot pushed t" +
             "he possibilites of what the team was capable of."
       }, {
->>>>>>> kio-branch
         title: "Robot 2017",
         details: [
           "Team Captain", "Lead Mechanical Designer"
@@ -569,28 +365,12 @@ export const sections = [
           "engineering/Robot 2017/robot2017_side.jpg", "engineering/Robot 2017/robot2017_onfield.jpg", "engineering/Robot 2017/robot2017_shooting.jpg", "engineering/Robot 2017/robot2017_team.jpg", "engineering/Robot 2017/robot2017_bragsheet.jpg"
         ],
         processImages: [],
-<<<<<<< HEAD
-<<<<<<< HEAD
-        description:
-          "The team’s most ambitious design up until this point, this robot pushed the possibilites of what the team was capable of. We implemented a cascading elevtor design, which allows the entire elevator to proportionally move up with the carriage holding the shooting/feeding mechanism. ",
-=======
-        description:[
-          "This robot implements a lot of new design philosophies for the team. The focus was to introduce new design and building standards in order to better organize the team's workflow in the years to come. ",
-          "conveyor belt feeding mechanism; flywheel shooting mechanism; winch climbing system"
-        ]
->>>>>>> kio-branch
-      },
-    ],
-  },
-
-=======
         description: "This robot implements a lot of new design philosophies for the team. The " +
             "focus was to introduce new design and building standards in order to bett" +
             "er organize the team's workflow in the years to come. "
       }
     ]
   }
->>>>>>> kio-branch
 ];
 
 export const defaultItem = {
