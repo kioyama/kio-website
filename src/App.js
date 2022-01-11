@@ -1,26 +1,26 @@
 import logo from "./logo.svg";
 import "./App.css";
-import PanelNavigation from "./PanelNavigation";
-import ItemDisplay from "./ItemDisplay";
 import Dashboard from "./Dashboard";
-import React, { useState } from "react";
+import Splash from "./Splash";
+import React, { useState, useEffect } from "react";
 
 function App() {
-  const [rotation, setRotation] = useState(0);
-  console.log(rotation);
   return (
-    <div>
-      <header>
-        <link
-          rel="stylesheet"
-          href="https://use.typekit.net/ekd2slo.css"
-        ></link>
-      </header>
-      <div className="app">
-        <Dashboard />
+    <div style={{ position: "relative" }}>
+      <div style={{ position: "absolute", zIndex: -1 }}>
+        <header>
+          <link
+            rel="stylesheet"
+            href="https://use.typekit.net/ekd2slo.css"
+          ></link>
+        </header>
+        <div className="app">
+          <Dashboard />
+        </div>
       </div>
-      <div className="blush-blush">
-        <img src="blush.png" alt="blush logo" />
+      <img className="blush-blush" src="blush.png" alt="blush logo" />
+      <div style={{ position: "absolute", pointerEvents: "none" }}>
+        <Splash />
       </div>
     </div>
   );
