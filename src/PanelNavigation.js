@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import PanelNavigationItem from "./PanelNavigationItem";
-import { sections } from "./data";
-import { PanelStatus } from "./constants";
+import {sections} from "./data";
+import {PanelStatus} from "./constants";
 
 class PanelNavigation extends Component {
   render() {
@@ -27,10 +27,12 @@ class PanelNavigation extends Component {
             </div>
             <div className="nav-row">
               <div
-                className={(this.props.panelState === PanelStatus.GALLERY && this.arrayEquals(this.props.gallery, section.images))  ? "nav-item-active" : "nav-item"}
-                onClick={() => this.props.setGallery(section.images) }
-              >
-                <p>View all</p>
+                className={(
+                  this.props.panelState === PanelStatus.GALLERY && this.arrayEquals(this.props.gallery, section.images))
+                  ? "nav-item-active"
+                  : "nav-item"}
+                onClick={() => this.props.setGallery(section.images)}>
+                <p>View All</p>
               </div>
               <div className="blank-nav-item"></div>
             </div>
@@ -48,17 +50,16 @@ class PanelNavigation extends Component {
           <PanelNavigationItem
             item={items[i]}
             active={items[i] === this.props.activeItem}
-            onClick={this.props.setItem}
-          />
-          {i + 1 < items.length ? (
-            <PanelNavigationItem
-              item={items[i + 1]}
-              active={items[i + 1] === this.props.activeItem}
-              onClick={this.props.setItem}
-            />
-          ) : (
-            <div className="blank-nav-item" />
-          )}
+            onClick={this.props.setItem}/> {
+            i + 1 < items.length
+              ? (
+                <PanelNavigationItem
+                  item={items[i + 1]}
+                  active={items[i + 1] === this.props.activeItem}
+                  onClick={this.props.setItem}/>
+              )
+              : (<div className="blank-nav-item"/>)
+          }
         </div>
       );
     }
@@ -66,10 +67,9 @@ class PanelNavigation extends Component {
   };
 
   arrayEquals = (a, b) => {
-    return Array.isArray(a) &&
-      Array.isArray(b) &&
-      a.length === b.length &&
-      a.every((val, index) => val === b[index]);
+    return Array.isArray(a) && Array.isArray(b) && a.length === b.length && a.every(
+      (val, index) => val === b[index]
+    );
   }
 }
 

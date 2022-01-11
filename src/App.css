@@ -70,7 +70,7 @@ img:not(.overlay-container img) {
 }
 
 .header {
-  padding: 1rem 1rem;
+  padding: 1rem 1.5rem;
   border-bottom: 1px solid #9D9E9B;
   border-right: 1px solid #9D9E9B;
 }
@@ -116,7 +116,7 @@ img:not(.overlay-container img) {
 
 .section-header {
   margin: 0;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   border-bottom: 1px solid #9D9E9B;
 
   width: 100%;
@@ -138,7 +138,7 @@ img:not(.overlay-container img) {
   box-sizing: border-box;
   border-right: 1px solid #9D9E9B;
   border-bottom: 1px solid #9D9E9B;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   height: 100%;
   width: 50%;
 }
@@ -148,7 +148,7 @@ img:not(.overlay-container img) {
   box-sizing: border-box;
   border-right: 1px solid #9D9E9B;
   border-bottom: 1px solid #9D9E9B;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   height: 100%;
   width: 50%;
 }
@@ -197,7 +197,7 @@ img:not(.overlay-container img) {
 }
 
 .display-detail {
-  font-size: 13px;
+  font-size: .85em;
   color: #757575;
   font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing:.05rem;
@@ -320,7 +320,7 @@ font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
 .about-details-info-box p {
   line-height: 1.33;
   color: #757575;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing:.05rem;
 }
