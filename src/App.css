@@ -54,8 +54,9 @@ img:not(.overlay-container img) {
 }
 
 .blush-blush img {
-  width: 284px;
-  height: 284px;  
+  padding: 1rem;
+  width: 200px;
+  height: 200px;  
   animation: rotation 20s infinite linear;
 
 
