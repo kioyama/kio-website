@@ -8,14 +8,22 @@ import { PanelStatus } from "./constants";
 class Dashboard extends Component {
   constructor(props) {
     super(props);
+    this.myRef = React.createRef();
     this.state = {
       activeItem: null,
+      scrollTop: 0,
       activeGallery: null,
       panelState: PanelStatus.ABOUT,
       overlayImage: null,
     };
   }
-
+  listenScrollEvent = () => {
+    const scrollTop = this.myRef.current.scrollTop;
+    this.props.onScrollPanel(this.state.scrollTop - scrollTop);
+    this.setState({
+      scrollTop: scrollTop,
+    });
+  };
   render() {
     return (
       <div className="wrapper">
@@ -33,7 +41,11 @@ class Dashboard extends Component {
         ) : (
           <div />
         )}
-        <div className="panel">
+        <div
+          className="panel"
+          onScroll={this.listenScrollEvent}
+          ref={this.myRef}
+        >
           <div className="header">
             <h1 className="heading">Kio Murayama</h1>
           </div>

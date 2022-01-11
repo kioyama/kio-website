@@ -55,7 +55,19 @@ img:not(.overlay-container img) {
 
 .blush-blush img {
   width: 284px;
-  height: 284px;
+  height: 284px;  
+  animation: rotation 20s infinite linear;
+
+
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .panel {
@@ -314,11 +326,7 @@ img:not(.overlay-container img) {
 .about-details-info-box span a {
 font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
   flex: 3;
-<<<<<<< HEAD
-  color: #AF972F;
-=======
   color:#AF972F;
->>>>>>> kio-branch
 }
 
 .about-details-label-box p,
