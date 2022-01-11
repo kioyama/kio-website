@@ -75,7 +75,6 @@ img:not(.overlay-container img) {
   }
   100% {
     opacity: 0;
-    display: none;
   }
 }
 
@@ -407,7 +406,7 @@ font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
   height: 100vh;
   pointer-events: none;
   width: 100vw;
-  animation: opacity 2s forwards;
+  animation: opacity 2s ease forwards;
   top: 0;
   left: 0;
 
