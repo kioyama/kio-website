@@ -57,7 +57,7 @@ img:not(.overlay-container img) {
   padding: 1rem;
   width: 200px;
   height: 200px;  
-  animation: rotation 20s infinite linear;
+  animation: rotation 30s infinite linear;
 
 
 }

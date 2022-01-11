@@ -17,14 +17,10 @@ function App() {
         ></link>
       </header>
       <div className="app">
-        <Dashboard onScrollPanel={(r) => setRotation(r)} />
+        <Dashboard />
       </div>
       <div className="blush-blush">
-        <img
-          src="blush.png"
-          alt="blush logo"
-          style={{ transform: `rotate(${rotation * 10}deg)` }}
-        />
+        <img src="blush.png" alt="blush logo" />
       </div>
     </div>
   );
