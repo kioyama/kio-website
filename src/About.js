@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { aboutImage } from "./data";
+import React, {Component} from "react";
+import {aboutImage} from "./data";
 
 class About extends Component {
   render() {
@@ -18,35 +18,56 @@ class About extends Component {
             </div>
             <div className="about-details-info-box">
               <p>
-                Born in Los Angeles, Kio Murayama is a multifaceted creator
-                working in a space where engineering intersects
-                with art practice.
+                Born in Los Angeles, Kio Murayama is a multifaceted creator working in a
+                space where engineering intersects with art practice.
               </p>
             </div>
           </div>
-          <div className="about-details-info-box">
-            <p>
-              Boston University <br></br>
-              B.S. Mechanical Engineering <br></br>
-              Minor Visual Art <br></br>
-              Contact <br></br>
-              2022 <br></br>
-            </p>
+          <div className="about-details">
+            <div className="about-details-label-box ">
+              <p>Education</p>
+            </div>
+            <div className="about-details-info-box">
+              <p>
+                Boston University
+                <br></br>
+                B.S. Mechanical Engineering
+                <br></br>
+                Minor Visual Arts
+                <br></br>
+                2022
+                <br></br>
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="about-details">
-          <div className="about-details-label-box ">
-            <p>Contact</p>
+          <div className="about-details">
+            <div className="about-details-label-box ">
+              <p>Contact</p>
+            </div>
+            <div className="about-details-info-box">
+              <p>
+                <span>
+                  <a href="mailto: kio.m0051@gmail.com">kio.m0051@gmail.com</a>
+                </span>{" "}
+                <br></br>
+              </p>
+            </div>
           </div>
-          <div className="about-details-info-box">
-            <p>
-              Email:{" "}
-              <span>
-                <a href="mailto: kio.m0051@gmail.com">kio.m0051@gmail.com</a>
-              </span>{" "}
-              <br></br>
-            </p>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <div className="about-details">
+            <div className="about-details-label-box ">
+              <p>Web Development</p>
+            </div>
+            <div className="about-details-info-box">
+              <p>
+                colehorvitz.com
+              </p>
+            </div>
           </div>
+          <div className="nav-fill-remaining"></div>
         </div>
       </div>
     );
