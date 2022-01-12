@@ -33,7 +33,7 @@ class About extends Component {
                 <br></br>
                 B.S. Mechanical Engineering
                 <br></br>
-                Minor Visual Arts
+                Visual Arts Minor
                 <br></br>
                 2022
                 <br></br>

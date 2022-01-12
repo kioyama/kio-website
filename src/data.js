@@ -12,13 +12,13 @@ export const sections = [
         ],
         materials: [],
         images: [
-          "sculpture/Justification of Sculpture/jos_1.jpg",
-          "sculpture/Justification of Sculpture/jos_3.jpg",
-          "sculpture/Justification of Sculpture/jos_5.jpg",
-          "sculpture/Justification of Sculpture/jos_7.jpg",
-          "sculpture/Justification of Sculpture/jos_9.jpg",
-          "sculpture/Justification of Sculpture/jos_11.jpg",
-          "sculpture/Justification of Sculpture/jos_13.jpg"
+          "sculpture/untitled/monster1.jpg",
+          "sculpture/untitled/monster2.jpg",
+          "sculpture/untitled/monster3.jpg",
+          "sculpture/untitled/monster4.jpg",
+          "sculpture/untitled/monster5.jpg",
+          "sculpture/untitled/monster6.jpg",
+          "sculpture/untitled/monster7.jpg"
         ],
         processImages: []
       }, {
@@ -234,92 +234,49 @@ export const sections = [
         images: ["painting/Father's Day/father_main.jpg"],
         processImages: []
       }, {
-        title: "Repetition Little Blue Under Red",
-        details: [
-          "Oil on canvas", '18" x 24"'
-        ],
-        materials: [],
-        images: ["painting/Calder study/calderstudy.jpg"],
-        processImages: []
-      }, {
         title: "Untitled",
         details: [
-          "Oil on canvas", '12" x 9"'
+          "Ink and compressed chalk on paper", '24" x 18"'
         ],
         materials: [],
-        images: [
-          "painting/Self Portrait/IMG_2691 copy.jpg", "painting/Self Portrait/IMG_2692.jpg"
-        ],
+        images: ["painting/Automatic/auto.jpg"],
         processImages: []
       }
-    ]
-  }, {
-    title: "drawing",
-    type: "gallery_view",
-    images: [
-      "drawing/partnerportrait.jpg",
-      "drawing/automatic.jpg",
-      "drawing/winged_victory.jpg",
-      "drawing/pharell.jpg",
-      "drawing/black_box_hand.jpg",
-      "drawing/solarized_eyes.jpg",
-      "drawing/silver_girl.jpg",
-      "drawing/frank_ocean.jpg",
-      "drawing/cowboy.jpg",
-      "drawing/michelangelo_study.jpg",
-      "drawing/christian_bale.jpg",
-      "drawing/jonas_dark.jpg",
-      "drawing/squigly_girl.jpg",
-      "drawing/UNITY.jpg",
-      "drawing/wassily_chair_girl.jpg"
     ]
   }, {
     title: "photography",
     type: "gallery_view",
     images: [
+      "photography/12_mikuto_mirror.jpg",
+      "photography/6_garrett_808.jpg",
+      "photography/11_cole_tent.jpg",
+      "photography/41_ivan_club.jpg",
       "photography/1_kunio_maekawa.jpg",
       "photography/2_children_at_play.jpg",
-      "photography/3_matty_grafitti_portrait.jpg",
-      "photography/4_rem_koolhaas_berlin.jpg",
-      "photography/5_jenny_caution-min.jpg",
-      "photography/6_garrett_808.jpg",
       "photography/8_mikuto_fade.jpg",
-      "photography/9_mikuto_doubleexp.jpg",
-      "photography/10_tokyo_meet_red_white.jpg",
-      "photography/11_cole_tent.jpg",
-      "photography/willie_newbury.jpg",
-      "photography/12_mikuto_mirror.jpg",
+      "photography/33_Mel_ICA_behind.jpg",
+      "photography/5_jenny_caution-min.jpg",
+      "photography/21_safin_behind_booth.jpg",
+      "photography/36_yuiko_blur.jpg",
+      "photography/calder_chicago.jpg",
+      "photography/20_dresden_halfhalf.jpg",
+      "photography/19_spaceship_joshuat.jpg",
       "photography/14_yutenji_escalator_VISION.jpg",
-      "photography/15_dresden_theatre.jpg",
       "photography/16_passive_aggressive_youth-min.jpg",
       "photography/17_bread_machine.jpg",
       "photography/18_aaron_sevag_rock.jpg",
-      "photography/calder_chicago.jpg",
-      "photography/19_spaceship_joshuat.jpg",
-      "photography/20_dresden_halfhalf.jpg",
-      "photography/21_safin_behind_booth.jpg",
       "photography/22_matty_portrait.jpg",
-      "photography/23_matheus_rome.jpg",
-      "photography/25_chaos_disorder.jpg",
-      "photography/26_crane_warren.jpg",
-      "photography/steve_dj.jpg",
-      "photography/27_kacper_guitar.jpg",
-      "photography/28_Mikuto_mexicanbar.jpg",
-      "photography/29_spikeball.jpg",
-      "photography/31_aaron_boot.jpg",
-      "photography/33_Mel_ICA_behind.jpg",
       "photography/34_bundestag.jpg",
-      "photography/willie_gg_esplanade.jpg",
-      "photography/36_yuiko_blur.jpg",
       "photography/37_aaron_cole_beach.jpg",
-      "photography/39_brutal_217.jpg",
       "photography/40_berlin_color.jpg",
-      "photography/41_ivan_club.jpg",
-      "photography/42_J_formation.jpg",
-      "photography/43_safin_gg_doubleexp.jpg",
-      "photography/44_crane_dresden.jpg",
-      "photography/45_sevag_sza.jpg",
-      "photography/46_nakameguro_girls.jpg"
+      "photography/willie_gg_esplanade.jpg",
+      "photography/26_crane_warren.jpg",
+      "photography/15_dresden_theatre.jpg",
+
+      "photography/4_rem_koolhaas_berlin.jpg",
+      "photography/31_kellygetty.jpg",
+      "photography/23_matheus_rome.jpg",
+      "photography/42_J_formation.jpg"
     ]
   }, {
     title: "engineering",
@@ -336,11 +293,12 @@ export const sections = [
           "engineering/Motorcycle/motorcycle_MAIN.jpg", "engineering/Motorcycle/motorcycle_topdown.jpg", "engineering/Motorcycle/motorcycle_frontfork.jpg", "engineering/Motorcycle/motorcycle_process_1.jpg"
         ],
         processImages: [],
-        description: "Designed and built entirely from the frame up, this bike was made to be a" +
-            " 16 year old's dream motorcycle. The goal was to revitalize a neglected m" +
-            "otorcycle into a cafe racer."
+        description: "Designed and built from the frame up, this bike was made to be a 16 year " +
+            "old's dream motorcycle. The goal was to revitalize a neglected motorcycle" +
+            " into a cafe racer."
       }, {
         title: "Robot 2018",
+
         details: [
           "Team Captain", "Lead Mechanical Designer"
         ],
@@ -348,13 +306,14 @@ export const sections = [
           "cascading elevator design", "compliant ball shooting/feeding mechanism", "winch climbing system"
         ],
         images: [
-          "engineering/Robot 2018/robot2018_hanging.jpg", "engineering/Robot 2018/robot2018_scoring.jpg", "engineering/Robot 2018/robot2018_pits.jpg", "engineering/Robot 2018/robot2018_team.jpg", "engineering/Robot 2018/robot2018_bragsheet.jpg"
+          "engineering/Robot 2018/robot2018_hanging.jpg", "engineering/Robot 2018/robot2018_scoring.jpg", "engineering/Robot 2018/robot2018_pits.jpg", "engineering/Robot 2018/robot2018_bragsheet.jpg"
         ],
         processImages: [],
         description: "The team’s most ambitious design up until this point. This robot pushed t" +
             "he possibilites of what the team was capable of."
       }, {
         title: "Robot 2017",
+
         details: [
           "Team Captain", "Lead Mechanical Designer"
         ],
@@ -362,7 +321,7 @@ export const sections = [
           "conveyor belt feeding mechanism", "flywheel shooting mechanism", "winch climbing system"
         ],
         images: [
-          "engineering/Robot 2017/robot2017_side.jpg", "engineering/Robot 2017/robot2017_onfield.jpg", "engineering/Robot 2017/robot2017_shooting.jpg", "engineering/Robot 2017/robot2017_team.jpg", "engineering/Robot 2017/robot2017_bragsheet.jpg"
+          "engineering/Robot 2017/robot2017_side.jpg", "engineering/Robot 2017/robot2017_onfield.jpg", "engineering/Robot 2017/robot2017_shooting.jpg", "engineering/Robot 2017/robot2017_bragsheet.jpg"
         ],
         processImages: [],
         description: "This robot implements a lot of new design philosophies for the team. The " +
@@ -391,20 +350,22 @@ export const inspoImages = [
   "inspo/record_player.jpg",
   "inspo/veilance_christo.jpg",
   "inspo/linabobardi.jpg",
-  "inspo/duchamp.jpg",
-  "inspo/linkage_ting.jpg",
+  "inspo/virgreen.jpg",
+  "inspo/duchampspin.jpg",
   "inspo/arecibo.jpg",
-  "inspo/bjork_margiela.jpg",
+  "inspo/linkage_ting.jpg",
+  "inspo/ding_helmets.jpg",
   "inspo/bon_iver_studio.jpg",
   "inspo/braun_nizo.jpg",
   "inspo/turrell.jpg",
   "inspo/brutal_stairs.jpg",
-  "inspo/calder_car.jpg",
   "inspo/calder_studio.jpg",
   "inspo/chairs.jpg",
   "inspo/chalayan.jpg",
+  "inspo/calder_car.jpg",
   "inspo/crane_dresden.jpg",
-  "inspo/ding_helmets.jpg",
+  "inspo/meetdrip.jpg",
+  "inspo/bjork_margiela.jpg",
   "inspo/frankfurt_airport.jpg",
   "inspo/margiela_hand.jpg",
   "inspo/donald_judd.jpg",
@@ -421,9 +382,10 @@ export const inspoImages = [
   "inspo/cig_woman.jpg",
   "inspo/moholy_nagy.jpg",
   "inspo/motorcycle.jpg",
-  "inspo/newbalance_novacancy.jpg",
+  "inspo/woodting.jpg",
   "inspo/kanye_balenciaga.jpg",
   "inspo/plate_earring.jpg",
+  "inspo/newbalance_novacancy.jpg",
   "inspo/orange_brutalism.jpg",
   "inspo/manlikelisa.jpg",
   "inspo/portal_spikey.jpg",
