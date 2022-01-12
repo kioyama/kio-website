@@ -66,8 +66,8 @@ class Dashboard extends Component {
             panelState={this.state.panelState}
             activeItem={this.state.activeItem}
           />
+          <div className="nav-fill-remaining"></div>{" "}
           <div className="footer"></div>
-          <div className="nav-fill-remaining"></div>
         </div>
         <div></div>
         <Display

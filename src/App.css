@@ -22,7 +22,6 @@ a {
   display: flex;
   height: 100vh;
   width: 100vw;
-  pointer-events: auto; 
 }
 
 img:not(.overlay-container img) {
@@ -46,14 +45,14 @@ img:not(.overlay-container img) {
 }
 
 
+
 .blush-blush  {
-  padding: 1rem;
   width: 200px;
   height: 200px; 
-  right: 20px;
+  right: 42px;
   position: absolute;
-  top: 20px;
-  animation: rotation 30s infinite linear;
+  top: 42px;
+  animation: rotation 60s infinite linear;
 }
 
 @keyframes rotation {
@@ -75,6 +74,7 @@ img:not(.overlay-container img) {
   }
   100% {
     opacity: 0;
+    pointer-events: none; 
   }
 }
 
@@ -398,13 +398,12 @@ font-family: 'NeueHaasGrotDisp', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 .splash {
+  position: absolute;
   background-color:#D3291B;
   display: flex;
   justify-content: center;
-  position: relative;
-    align-items: center;
+  align-items: center;
   height: 100vh;
-  pointer-events: none;
   width: 100vw;
   animation: opacity 2s ease forwards;
   top: 0;
